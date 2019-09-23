@@ -1,0 +1,672 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201710 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.md.zp.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2658                
+POS_VISITOR 15933               
+POS_DAY 20561               
+POS_DOMAIN 3516                
+POS_LOGIN 3748                
+POS_ROBOT 3903                
+POS_WORMS 4569                
+POS_EMAILSENDER 4700                
+POS_EMAILRECEIVER 4843                
+POS_SESSION 21386               
+POS_SIDER 21593               
+POS_FILETYPES 4978                
+POS_DOWNLOADS 5204                
+POS_OS 5276                
+POS_BROWSER 5422                
+POS_SCREENSIZE 6194                
+POS_UNKNOWNREFERER 6268                
+POS_UNKNOWNREFERERBROWSER 6518                
+POS_ORIGIN 6634                
+POS_SEREFERRALS 6776                
+POS_PAGEREFS 6946                
+POS_SEARCHWORDS 7200                
+POS_KEYWORDS 7352                
+POS_MISC 2321                
+POS_ERRORS 7411                
+POS_CLUSTER 3604                
+POS_SIDER_404 7539                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171101031548 189 49486 14114515056361
+FirstTime 0
+LastTime 20171031152209
+LastUpdate 20171101044837 189 0 188 0 0
+TotalVisits 163                 
+TotalUnique 105                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 115                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 53 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 175 3143076 23 118 1407265
+1 6 48 822813 19 34 514966
+2 11 205 2923617 24 133 1736536
+3 1 2 196216 9 13 278847
+4 7 123 1688123 16 54 1001179
+5 3 43 779329 19 31 632734
+6 8 120 1408503 8 16 255451
+7 10 131 2347874 248 378 5782953
+8 14 208 3139478 12 42 850866
+9 18 328 4822924 36 100 1849063
+10 31 382 6066138 26 99 1478059
+11 25 458 7538681 9 20 297008
+12 28 153 3093188 13 23 438670
+13 15 249 3792934 14 27 349357
+14 29 292 5381065 11 28 390441
+15 25 402 6531727 15 44 909054
+16 39 254 5791396 17 41 672350
+17 18 176 2853726 24 102 1689108
+18 8 98 1850233 28 47 902742
+19 21 297 4910934 18 44 1054769
+20 15 210 3519957 22 51 800928
+21 27 299 4232274 29 91 1407920
+22 26 111 2032948 25 89 1367494
+23 6 82 967249 27 93 1099779
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 407 4846 79834403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 542 11353338 20171027214312 28
+bot[\s_+:,\.\;\/\\-] 356 3635643 20171031071333 67
+yandex 182 2659606 20171031202740 77
+archive\.org_bot 62 936055 20171031112908 12
+baiduspider 42 753034 20171031071920 0
+ia_archiver 40 513076 20171027105350 16
+phantom 40 479080 20171012090526 0
+crawl 19 416073 20171028093024 2
+no_user_agent 14 339248 20171016190124 0
+mail\.ru 10 179377 20171004101443 5
+surveybot 4 62310 20171019221118 2
+unknown 9 2421 20171031071821 9
+facebook 1 30802 20171006162757 0
+netcraft 1 30802 20171010220825 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 1637 25598949 0 0
+png 115 1606976 0 0
+php 1 30802 0 0
+html 126 3852492 0 0
+js 2537 32158833 0 0
+jpg 146 11084885 0 0
+Unknown 280 5392754 0 0
+gif 4 108712 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 218 0 58642
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 336
+winxp 522
+winnt 400
+linuxubuntu 1
+linux 197
+winvista 741
+win7 1614
+macosx 1021
+Unknown 14
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+chrome13.0.764.0 1
+safari7.0 3
+chrome52.0.2743.116 51
+android 1
+chrome55.0.2883.91 82
+firefox18.0 1
+chrome56.0.2924.87 1
+chrome57.0.2987.98 1
+chrome58.0.3029.110 5
+firefox3.5.0 1
+chrome33.0.0.0 38
+msie8.0 959
+chrome61.0.3163.100 731
+chrome62.0.3202.62 44
+chrome61.0.3163.91 39
+chrome33.0.1750.146 39
+Unknown 1
+chrome57.0.2987.137 8
+firefox32.0 1
+firefox17.0 1
+chrome53.0.2785.143 2
+firefox55.0 91
+safari10.0 1006
+firefox29.0 1
+chrome51.0.2704.79 40
+firefox30.0 10
+firefox56.0 166
+chrome60.0.3112.113 83
+chrome45.0.2454.94 1
+chrome61.0.3163.79 1
+chrome43.0.2357.172 1
+safari9.0 7
+mozilla 57
+netscape5.0 2
+msie10.0 1014
+chrome46.0.2490.86 38
+chrome60.0.3112.90 53
+firefox36.0 2
+chrome61.0.3163.98 214
+chrome62.0.3202.75 49
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20171018223750
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20171003073800
+Go-http-client/1.1 20171027152026
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20171027152026
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 107 111
+From1 1 1
+From2 71 72
+From3 4 43
+From4 224 4619
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 16 17
+yandex 55 55
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://webcache.googleusercontent.com/search 3 41
+https://www.facebook.com 1 1
+http://vadetysjhj.info 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 19 7399
+206 12 60851
+400 2 36200
+404 310 5609098
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 195
+//css.php 1 -
+//images/404.php 2 md.zp.ua
+//nktt.php 1 -
+/fileman/Uploads/m3.jpg 1 -
+//bin/logo_img.php 1 -
+/admin.php 1 -
+//SessionController.php 2 md.zp.ua
+/administrator/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php
+//images/stories/shell.php 1 -
+//images/xxx.php 2 md.zp.ua
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://md.zp.ua/modules/mod_simplefileuploadv1.3/elements/udd.php
+//logs.asp 2 md.zp.ua
+//administrator/dbconfig.php 2 md.zp.ua
+//dswat.org/wsdl.php 2 md.zp.ua
+//media/mass.php 1 -
+/xmlrpc.php 1 -
+//media/1ndex.php 2 md.zp.ua
+/fileman/Uploads/images.jpg 5 http://md.zp.ua/site/page/13
+//license.php 1 -
+//administrator/includes/readmy.php 2 md.zp.ua
+//wp-configuration.php 1 -
+//google-assist.php 2 md.zp.ua
+/fileman/Uploads/individ1.jpg 2 http://webcache.googleusercontent.com/search
+//wp-content/plugins/SocketIontrol.php 2 md.zp.ua
+/fileman/Uploads/min.phtml 6 https://l.messenger.com/
+//webconfig.txt.php 2 md.zp.ua
+//cache/news.php 2 md.zp.ua
+//wp-cache.php 2 md.zp.ua
+//images/stories/u.php 1 -
+/administrator/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php
+//includes.php 2 md.zp.ua
+/fileman/Uploads/Speaking_club.gif 1 -
+//tmp/guide.php 1 -
+//images/al277.php 2 md.zp.ua
+//active.php 1 -
+//al277.php 2 md.zp.ua
+//images/stories/gh.php 1 -
+/fileman 2 -
+//functions.php 2 md.zp.ua
+//wp-content/plugins/wp-footers.php 2 md.zp.ua
+//libraries/joomla/wso.php 1 -
+//up14.php 1 -
+//administrator/webconfig.txt.php 2 md.zp.ua
+/wp-login.php 1 -
+//wp-content/uploads/mHHGv1.php 1 -
+//images/upxx.php 1 -
+//update.php 2 md.zp.ua
+//sqlbak.php 2 md.zp.ua
+//wp-content/uploads/Fbrrchive.php 2 md.zp.ua
+//images/stories/s.php 1 -
+//authenticating.php 2 md.zp.ua
+//wp-main.php 2 md.zp.ua
+//libraries/joomla/web.php 1 -
+//infos.php 2 md.zp.ua
+/blog/xmlrpc.php 1 -
+//images/stories/gass.php 1 -
+//images/stories/ali.php 1 -
+//libraries/joomla/css.php 1 -
+//thumb.php 2 md.zp.ua
+//tmp/upxx.php 1 -
+//images/logo_img.php 1 -
+//wp-content/plugins/sql_dump.php 2 md.zp.ua
+//modules/mod_simplefileuploadv1.3/elements/mHHGv1.php 1 -
+//media/404.php 2 md.zp.ua
+//robot.php 2 md.zp.ua
+//administrator/administrator.php 2 md.zp.ua
+//cache/list.php 2 md.zp.ua
+/fileman/Uploads/group1.jpg 2 https://www.google.com/
+//tmp/bogel.php 1 -
+//help.php 2 -
+//images/laj.php 2 md.zp.ua
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+//libraries/respectMuslims.php 1 -
+/administrator/index.php 1 -
+//cache/cache_aqbmkwwx.php 2 md.zp.ua
+//E.php 1 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 1 http://md.zp.ua//sites/all/libraries/elfinder/php/connector.minimal.php
+//shootme.php 2 md.zp.ua
+//tmp.php 4 md.zp.ua
+//images/xxu.php 1 -
+//maill.php 2 md.zp.ua
+//cache/defau1t.php 2 md.zp.ua
+//wp-data.php 2 md.zp.ua
+//wsdl.php 2 md.zp.ua
+//wp_logns.php 1 -
+//ws0.php 1 -
+//xup.php 1 -
+//wp-content/plugins/Analyser.php 2 md.zp.ua
+//u.php 1 -
+//mide.php 1 -
+//up.php 1 -
+//sql_dump.php 2 md.zp.ua
+//show.php 2 md.zp.ua
+/fileman/Uploads/Speaking_club_2.gif 1 -
+//images/stories/filemga.php 1 -
+//tmp/sfx.php 1 -
+/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php
+//RoseLeif.php 2 md.zp.ua
+/sitemap.xml 1 -
+//cache/support.php 2 md.zp.ua
+/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg 12 http://md.zp.ua/site/page/11
+//images/1ndex.php 2 md.zp.ua
+/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php
+//wp-admin/admin-ajax.php 1 http://md.zp.ua//wp-admin/admin-ajax.php
+//wp-content/plugins/Fbrrchive.php 2 md.zp.ua
+//modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://md.zp.ua//modules/mod_simplefileuploadv1.3/elements/udd.php
+/admin/login.php 1 -
+//sites/all/libraries/elfinder/files/mHHGv1.php 1 -
+//cache/cachee.php 2 md.zp.ua
+//wp-content/plugins/wp-cache.php 2 md.zp.ua
+//images/head.php 2 md.zp.ua
+//cache/clean.php 1 -
+//bookmark.php 2 md.zp.ua
+//b1.php 1 -
+//jconfig.php 2 md.zp.ua
+//images/robots.txt.php 2 md.zp.ua
+//images/stories/alfa.php 1 -
+//go.php 1 -
+/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php
+//wp-installation.php 1 -
+/skin/Signedint.php 1 -
+/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php
+//xmlsrpc.php 2 md.zp.ua
+//images/w0rm.php 1 -
+/bitrix/admin/index.php 1 -
+//bgeiis.php 2 md.zp.ua
+//configbak.php 2 md.zp.ua
+//default_component.php 1 -
+/windows.microsoft.com/en-US/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode 1 -
+/apple-touch-icon-120x120.png 1 -
+/fileman/Uploads/slide_2.gif 1 -
+//images/google-assist.php 2 md.zp.ua
+//media/reads.php 2 md.zp.ua
+/libraries/joomla/application/data.php 1 http://md.zp.ua/libraries/joomla/application/data.php
+//x.php 1 -
+/administrator/components/com_redmystic/chart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_redmystic/chart/php-ofc-library/ofc_upload_image.php
+/fileman/Uploads/izuchaem_angliyskomu.jpg 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+//ny.php 1 -
+//images/stories/xsamxadoo.php 1 -
+//zibi.php 1 -
+//images/sym.php 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php
+//r3x.php 2 md.zp.ua
+//zebda.php 1 -
+//images/wp-mail.php 1 -
+//images/p.php 1 -
+//install.php 2 md.zp.ua
+//includes/u2p.php 2 md.zp.ua
+//wp-content/plugins/wpfootes.php 2 md.zp.ua
+//log.php 2 md.zp.ua
+/administrator/components/com_joomlaupdate/restore.php 2 -
+/fileman/Uploads/1.png 10 http://www.md.zp.ua/site/page/12
+/apple-touch-icon.png 1 -
+//robots.txt.php 2 md.zp.ua
+//cli/40dd1d.php 2 md.zp.ua
+//images/stories/black.php 1 -
+//wp-content/plugins/myshe.php 2 md.zp.ua
+//images/stories/0d4y.php 1 -
+/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+//wp-content/plugins/revslider/temp/update_extract/mHHGv1.php 1 -
+//wp-content/plugins/SocketIasrgasfontrol.php 2 md.zp.ua
+//kk.php 1 -
+//images/stories/3xp.php 1 -
+//media/jss.php 1 -
+//media/tmp.php 2 md.zp.ua
+//error-log.php 2 md.zp.ua
+//elements.php 2 md.zp.ua
+//news.php 2 md.zp.ua
+//email.php 2 md.zp.ua
+/fileman/Uploads/Speaking_club_debates.jpg 1 -
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php
+//hh.php 1 -
+//mHHGv1.php 1 -
+//Abbrevsprl.php 2 md.zp.ua
+//wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+/user/ 1 -
+//site/tmp/cTivrC.php 2 md.zp.ua
+//images/stories/0day.php 3 -
+//goog1es.php 2 md.zp.ua
+//images/stories/webroot.php 1 -
+//images/upa.php 1 -
+//uploadify/uploadify.php 1 http://md.zp.ua//uploadify/uploadify.php
+//tmp/pz.php 1 -
+//media/jmail.php 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 http://md.zp.ua/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+//libraries/joomla/zipy.php 1 -
+//images/defau1t.php 2 md.zp.ua
+//media/css.php 1 -
+//images/stories/a.php 1 -
+//configurationbak.php 2 md.zp.ua
+//m.php 1 -
+//Jijle3.php 1 -
+//tmp/petx.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 115
+5.228.41.221 26 480 5500929 20171025235721
+188.163.98.187 24 416 7058830 20171011101912
+5.16.72.184 20 420 7485270 20171026002525
+188.163.99.118 19 145 3287710 20171030173226
+178.210.202.143 18 68 1556239 20171006222632
+91.204.61.248 15 97 1964173 20171004100752
+91.228.236.139 14 57 1310996 20171006124049
+158.69.27.211 12 12 287195 20171018223751
+176.193.123.162 12 240 2726382 20171026154225
+5.164.100.67 12 252 4491162 20171026160449
+185.137.17.9 1 1 30802 20171030141859
+104.45.18.178 1 1 27509 20171030142844
+37.110.99.83 1 8 320320 20171030185123
+194.28.182.47 4 45 789132 20171013073444
+95.220.196.187 2 38 444691 20171031064516
+180.246.92.108 0 24 304480 
+94.242.252.59 4 4 123208 20171015224139
+217.61.125.94 1 1 34518 20171019211511
+66.249.90.217 1 1 30886 20171003073800
+195.123.211.67 1 1 30802 20171030015532
+66.249.90.95 1 1 30802 20171002193051
+195.211.148.221 2 41 665434 20171024102849
+130.255.133.218 2 40 482968 20171031091841
+188.163.99.143 10 205 3326750 20171018172953
+93.175.210.24 2 40 486967 20171007081627
+46.175.254.15 7 47 814463 20171026214321
+178.210.205.16 6 47 957738 20171002083947
+185.137.18.144 2 2 61604 20171007131822
+95.220.101.229 0 14 127828 
+217.69.143.217 1 1 30802 20171007143632
+217.182.92.172 1 1 27509 20171027152026
+36.32.13.139 1 1 30802 20171013144322
+94.180.132.148 1 8 322015 20171021182805
+195.62.52.235 0 1 165414 
+122.96.131.232 1 1 30802 20171012010142
+62.80.169.54 7 87 1819528 20171030145659
+81.1.242.33 4 4 110036 20171020064514
+109.63.183.184 0 40 406232 
+93.74.188.160 0 1 54113 
+46.211.103.222 5 47 1068335 20171010165231
+178.140.54.31 2 42 748527 20171005111645
+188.163.98.29 3 42 699868 20171027184207
+109.63.186.156 1 18 292991 20171026021706
+204.12.206.18 2 2 58455 20171005233216
+93.185.221.179 2 2 47524 20171012145702
+106.120.16.176 1 1 30802 20171015160817
+93.175.216.193 2 38 467914 20171019202013
+158.46.201.119 1 1 30802 20171021055451
+182.242.104.42 1 1 30802 20171012032939
+188.166.84.232 1 1 30802 20171019104736
+23.101.61.176 1 1 27509 20171031104008
+95.220.99.134 2 22 631109 20171024220056
+178.140.117.133 2 40 486967 20171017213509
+96.125.165.134 1 1 30802 20171027184933
+134.249.24.37 10 51 1205896 20171005171304
+179.61.128.216 1 1 30802 20171012025814
+65.55.210.35 0 1 26675 
+185.158.113.171 1 1 23762 20171031091316
+176.193.114.253 2 62 865945 20171025001108
+112.215.36.144 2 38 376130 20171007103814
+188.163.96.214 8 49 859066 20171012213613
+95.8.12.156 1 1 5003 20171003210237
+188.163.97.251 7 49 1248317 20171028164423
+52.206.242.241 0 1 20759 
+88.99.141.3 1 1 30802 20171031152209
+188.163.99.192 2 41 665350 20171026210714
+59.174.77.160 1 1 30802 20171011074255
+185.45.13.154 4 4 123208 20171017173025
+5.254.65.131 2 41 767642 20171030142900
+79.165.56.94 2 39 477228 20171026183918
+178.137.115.13 4 44 740637 20171028125434
+181.214.173.127 1 1 30802 20171013005825
+91.242.40.27 2 41 665350 20171031134741
+93.175.216.91 9 51 1041413 20171026125457
+188.163.99.38 4 82 1330700 20171021112348
+188.166.39.81 2 2 61604 20171024104813
+93.175.220.21 5 82 1175130 20171026013539
+95.24.30.7 2 40 454397 20171030175338
+91.204.61.246 2 27 438216 20171008140401
+109.173.60.229 2 40 458113 20171009213542
+46.211.124.114 7 47 819029 20171011140505
+91.213.59.234 3 44 990282 20171023102201
+188.163.96.106 5 47 1065629 20171029160313
+38.145.73.95 1 1 30802 20171003045443
+199.30.24.224 0 1 7782 
+95.220.119.74 2 40 446408 20171015111536
+95.220.104.229 1 8 322015 20171012160747
+65.55.210.84 0 1 7787 
+94.242.252.14 1 1 30802 20171010161552
+54.237.242.92 1 1 30802 20171004113752
+46.211.130.22 3 44 990426 20171026154708
+112.215.36.143 0 38 400103 
+221.13.12.81 1 1 30802 20171013005216
+188.163.97.239 2 41 665434 20171031130844
+182.119.198.58 1 1 30802 20171014224800
+93.76.120.210 9 89 1496591 20171024195159
+95.28.182.226 2 41 767642 20171012194635
+123.191.133.113 1 1 30802 20171012145814
+188.163.98.130 2 41 665350 20171025145236
+37.147.110.93 2 40 449653 20171022084134
+188.166.87.145 1 1 30802 20171023101435
+46.119.198.23 2 41 665350 20171030193710
+37.110.100.83 2 40 446408 20171007092908
+176.193.119.129 1 8 33578 20171026021711
+109.87.206.44 2 40 489673 20171027192351
+158.46.167.174 1 1 30802 20171029225939
+34.212.23.60 1 1 142 20171021123736
+180.254.22.88 1 39 430438 20171007105143
+128.72.151.219 2 42 748587 20171022090838
+176.14.226.58 2 40 445576 20171022155834
+185.137.17.4 1 1 30802 20171002131521
+148.101.151.29 1 1 30802 20171010014741
+185.76.10.176 3 43 696821 20171012145045
+176.193.115.62 2 39 438970 20171028003328
+198.204.235.250 1 38 442710 20171007103353
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20171001 8 90 1917218 2
+20171002 17 137 2614434 6
+20171003 5 44 732041 4
+20171004 32 160 3599751 5
+20171005 14 95 2012878 3
+20171006 21 108 2074751 3
+20171007 15 318 4002569 11
+20171008 2 29 630305 1
+20171009 4 81 1123463 2
+20171010 9 114 2099769 4
+20171011 10 89 1515181 3
+20171012 22 188 3481626 11
+20171013 9 89 1546888 5
+20171014 3 42 696152 2
+20171015 9 86 1265768 4
+20171016 3 42 696320 1
+20171017 6 44 610175 2
+20171018 14 54 973304 2
+20171019 4 40 533234 3
+20171020 4 43 720368 2
+20171021 11 137 2542725 6
+20171022 6 122 1643816 3
+20171023 4 45 1021084 2
+20171024 16 212 3184630 7
+20171025 44 901 13148987 22
+20171026 58 884 14132254 22
+20171027 7 84 1247852 4
+20171028 13 132 2427924 3
+20171029 2 2 61688 2
+20171030 24 271 5236732 9
+20171031 11 163 2340516 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 5
+0s-30s 143
+30s-2mn 5
+2mn-5mn 6
+15mn-30mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 115 3513586 105 36
+/design/media/com_acymailing/js/acymailing_module.js@v=441 112 1181484 5 84
+/site/contact 51 1404166 28 13
+/site/page/3 22 527296 1 5
+/site/index 15 462534 2 5
+/site/page/4 13 309026 4 4
+/site/page/11 12 414336 4 4
+/site/page/1 11 251063 6 0
+/site/ 10 308104 0 3
+/site/page/12 8 208524 1 1
+/site/page/6 5 98145 0 0
+/site/page/8 4 80448 0 0
+// 1 30802 1 1
+/site/page/5 2 45472 0 0
+/admin/default/login 7 35203 4 5
+/site/page/7 2 40218 0 0
+/site/page/2 6 126918 0 0
+/index.php 1 30802 1 1
+/site/page/10 2 38490 0 0
+/site/page/9 3 59526 0 0
+/site/page/13 5 109905 1 1
+END_SIDER

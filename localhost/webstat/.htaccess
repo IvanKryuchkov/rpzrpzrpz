@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/md.zp.ua/webstat"
+AuthUserFile /var/www/lodar/data/etc/71435561.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

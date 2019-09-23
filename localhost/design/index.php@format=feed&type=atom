@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Home</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com"/>
+	<id>http://livedemo00.template-help.com/joomla_51010/index.php</id>
+	<updated>2015-06-12T17:11:22+00:00</updated>
+	<author>
+		<name>SMRAT</name>
+		<email>admin@tm.com</email>
+	</author>
+	<generator uri="http://joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://livedemo00.template-help.com/joomla_51010/index.php?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Home. Morbi tincidunt sodales neque eu rutrum</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/1-home-morbi-tincidunt-sodales-neque-eu-rutrum"/>
+		<published>2014-05-02T23:27:00+00:00</published>
+		<updated>2014-05-02T23:27:00+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/1-home-morbi-tincidunt-sodales-neque-eu-rutrum</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Home. Aliquam erat volutpat. Pellentesque non libero</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/2-home-aliquam-erat-volutpat-pellentesque-non-libero"/>
+		<published>2014-05-02T23:29:37+00:00</published>
+		<updated>2014-05-02T23:29:37+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/2-home-aliquam-erat-volutpat-pellentesque-non-libero</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Home. Class aptent taciti sociosqu ad litora torquent</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/3-home-class-aptent-taciti-sociosqu-ad-litora-torquent"/>
+		<published>2014-05-02T23:34:02+00:00</published>
+		<updated>2014-05-02T23:34:02+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/3-home-class-aptent-taciti-sociosqu-ad-litora-torquent</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Home. Praesent et enim a nisl commodo sodales non</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/4-home-praesent-et-enim-a-nisl-commodo-sodales-non"/>
+		<published>2014-05-02T23:34:33+00:00</published>
+		<updated>2014-05-02T23:34:33+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/4-home-praesent-et-enim-a-nisl-commodo-sodales-non</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Home. In hac habitasse platea dictumst. In in sem libero</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/5-home-in-hac-habitasse-platea-dictumst-in-in-sem-libero"/>
+		<published>2014-05-02T23:35:27+00:00</published>
+		<updated>2014-05-02T23:35:27+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/5-home-in-hac-habitasse-platea-dictumst-in-in-sem-libero</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Sed justo felis, lacinia at scelerisque a, semper et ante. Fusce posuere lacus eu mi lacinia et fringilla elit sollicitudin. Maecenas non odio nunc. In ut sollicitudin magna. Sed sit amet tincidunt odio. Mauris pharetra adipiscing urna ut accumsan. Suspendisse nec risus in felis fermentum blandit.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-1. Nulla ac enim ligula.</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/16-slide-1-nulla-ac-enim-ligula"/>
+		<published>2014-05-02T23:54:26+00:00</published>
+		<updated>2014-05-02T23:54:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/16-slide-1-nulla-ac-enim-ligula</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Praesent justo dolor, lobortis quis: lobortis dignissim, pulvinar ac&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Praesent justo dolor, lobortis quis: lobortis dignissim, pulvinar ac&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-2. Maecenas blandit semper</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/17-slide-2-maecenas-blandit-semper"/>
+		<published>2014-05-02T23:55:12+00:00</published>
+		<updated>2014-05-02T23:55:12+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/17-slide-2-maecenas-blandit-semper</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Cras nisi nisl, commodo sed semper quis, sagittis ut elit&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Cras nisi nisl, commodo sed semper quis, sagittis ut elit&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-3. Fusce molestie</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/18-slide-3-fusce-molestie"/>
+		<published>2014-05-02T23:56:26+00:00</published>
+		<updated>2014-05-02T23:56:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/18-slide-3-fusce-molestie</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Praesent justo dolor, lobortis quis: lobortis dignissim, pulvinar ac&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Praesent justo dolor, lobortis quis: lobortis dignissim, pulvinar ac&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-4. Duis leo velit</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/65-slide-3-fusce-molestie-2"/>
+		<published>2014-05-02T23:56:26+00:00</published>
+		<updated>2014-05-02T23:56:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/65-slide-3-fusce-molestie-2</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Duis leo velit, ullamcorper a vulputate sed, iaculis&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Duis leo velit, ullamcorper a vulputate sed, iaculis&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-5. Phasellus quis</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/66-slide-3-fusce-molestie-3"/>
+		<published>2014-05-02T23:56:26+00:00</published>
+		<updated>2014-05-02T23:56:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/66-slide-3-fusce-molestie-3</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Phasellus quis quam orci, vitae fermentum&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Phasellus quis quam orci, vitae fermentum&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Slide-6. Donec ut urna</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/67-slide-3-fusce-molestie-4"/>
+		<published>2014-05-02T23:56:26+00:00</published>
+		<updated>2014-05-02T23:56:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/18-slider/67-slide-3-fusce-molestie-4</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Donec ut urna eu ligula cursus egestas quis&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;span&gt;English courses in summer&lt;/span&gt; -  Donec ut urna eu ligula cursus egestas quis&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-1. Aenean sem metus</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/19-carousel-1-aenean-sem-metus"/>
+		<published>2014-05-02T23:57:36+00:00</published>
+		<updated>2014-05-02T23:57:36+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/19-carousel-1-aenean-sem-metus</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-2. In nec sapien mauris</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/20-carousel-2-in-nec-sapien-mauris"/>
+		<published>2014-05-02T23:58:26+00:00</published>
+		<updated>2014-05-02T23:58:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/20-carousel-2-in-nec-sapien-mauris</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-3. Pellentesque</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/21-carousel-3-pellentesque"/>
+		<published>2014-05-02T23:58:55+00:00</published>
+		<updated>2014-05-02T23:58:55+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/21-carousel-3-pellentesque</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-4. Suspendisse</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/22-carousel-4-suspendisse"/>
+		<published>2014-05-02T23:59:26+00:00</published>
+		<updated>2014-05-02T23:59:26+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/22-carousel-4-suspendisse</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-5. Nullam eget ultrices</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/23-carousel-5-nullam-eget-ultrices"/>
+		<published>2014-05-03T00:00:02+00:00</published>
+		<updated>2014-05-03T00:00:02+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/23-carousel-5-nullam-eget-ultrices</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Carousel-6. Donec sit amet mi pharetra</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/24-carousel-6-donec-sit-amet-mi-pharetra"/>
+		<published>2014-05-03T00:00:34+00:00</published>
+		<updated>2014-05-03T00:00:34+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/19-carousel/24-carousel-6-donec-sit-amet-mi-pharetra</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;In nec sapien mauris. Aenean sem metus, vehicula in rhoncus nec, fringilla eu velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae vehicula lacus. Maecenas vestibulum placerat lectus ut aliquet. Duis id arcu risus, vitae interdum lacus. Aliquam nisl justo, iaculis non placerat at, ornare aliquet enim. Suspendisse consequat fermentum nisl, eget porta risus egestas quis. Nullam eget ultrices massa.&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Ut pharetra augue ne</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/70-ut-pharetra-augue-ne"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/70-ut-pharetra-augue-ne</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Age 5-7
+</summary>
+		<content type="html">Age 5-7
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>TOEFL</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/71-ut-pharetra-augue-ne-2"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/71-ut-pharetra-augue-ne-2</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Aliquam congue fermentum nisl
+</summary>
+		<content type="html">Aliquam congue fermentum nisl
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Nulla venenatis</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/72-ut-pharetra-augue-ne-3"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/72-ut-pharetra-augue-ne-3</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Age 8-12
+</summary>
+		<content type="html">Age 8-12
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>GMAT</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/73-ut-pharetra-augue-ne-4"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/73-ut-pharetra-augue-ne-4</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Fusce euismod consequat
+</summary>
+		<content type="html">Fusce euismod consequat
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Sed in lacus ut</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/74-ut-pharetra-augue-ne-5"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/74-ut-pharetra-augue-ne-5</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Age 13-18
+</summary>
+		<content type="html">Age 13-18
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>IELTS</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/75-ut-pharetra-augue-ne-6"/>
+		<published>2014-07-30T17:39:29+00:00</published>
+		<updated>2014-07-30T17:39:29+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/32-choose-your-courses/75-ut-pharetra-augue-ne-6</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">Sed in lacus ut enim
+</summary>
+		<content type="html">Sed in lacus ut enim
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>Feel free to communicate </title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/77-feel-free-to-communicate"/>
+		<published>2014-07-31T13:56:33+00:00</published>
+		<updated>2014-07-31T13:56:33+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/77-feel-free-to-communicate</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in&lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>We will help you to  understand the world</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/78-feel-free-to-communicate-2"/>
+		<published>2014-07-31T13:56:33+00:00</published>
+		<updated>2014-07-31T13:56:33+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/78-feel-free-to-communicate-2</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing &lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing &lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+	<entry>
+		<title>The leader in teaching  languages</title>
+		<link rel="alternate" type="text/html" href="http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/79-feel-free-to-communicate-3"/>
+		<published>2014-07-31T13:56:33+00:00</published>
+		<updated>2014-07-31T13:56:33+00:00</updated>
+		<id>http://livedemo00.template-help.com/joomla_51010/index.php/33-why-choose-us/79-feel-free-to-communicate-3</id>
+		<author>
+			<name>Super User</name>
+			<email>admin@tm.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing &lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla 
+vel diam. Sed in lacus ut enim adipiscing &lt;/p&gt;
+</content>
+		<category term="Home" />
+	</entry>
+</feed>

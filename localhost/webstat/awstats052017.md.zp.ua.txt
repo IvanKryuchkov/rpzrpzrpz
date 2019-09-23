@@ -1,0 +1,1808 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.md.zp.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2663                
+POS_VISITOR 40277               
+POS_DAY 46768               
+POS_DOMAIN 3501                
+POS_LOGIN 3733                
+POS_ROBOT 3888                
+POS_WORMS 4650                
+POS_EMAILSENDER 4781                
+POS_EMAILRECEIVER 4924                
+POS_SESSION 47310               
+POS_SIDER 47517               
+POS_FILETYPES 5059                
+POS_DOWNLOADS 5305                
+POS_OS 5376                
+POS_BROWSER 5527                
+POS_SCREENSIZE 6474                
+POS_UNKNOWNREFERER 6548                
+POS_UNKNOWNREFERERBROWSER 6825                
+POS_ORIGIN 6907                
+POS_SEREFERRALS 7048                
+POS_PAGEREFS 7225                
+POS_SEARCHWORDS 7539                
+POS_KEYWORDS 7702                
+POS_MISC 2326                
+POS_ERRORS 7772                
+POS_CLUSTER 3589                
+POS_SIDER_404 7926                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170601032210 9 1321 9429207947949
+FirstTime 20170511173957
+LastTime 20170530202155
+LastUpdate 20170601051426 9 0 8 0 0
+TotalVisits 162                 
+TotalUnique 119                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 186                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 43 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 366 7127746 4 6 35070
+1 21 217 5108804 45 57 297215
+2 4 80 859626 32 56 684562
+3 9 166 3171748 40 202 3540598
+4 21 332 6697576 107 511 9113240
+5 2 37 422388 29 201 3284725
+6 7 120 1610182 238 250 4336450
+7 9 203 3048183 7 91 917485
+8 4 86 1315538 7 10 83369
+9 4 42 491739 2 20 245895
+10 24 145 2612282 15 31 281425
+11 21 155 4953622 8 13 56532
+12 53 294 5623575 26 112 633194
+13 22 232 4513817 40 97 2121638
+14 40 138 1835855 10 24 76589
+15 7 89 2451212 13 20 900597
+16 7 44 824839 13 21 132297
+17 28 235 4025909 6 11 207919
+18 33 190 3425754 17 25 393658
+19 8 84 1237745 9 27 668016
+20 12 95 1599180 10 70 859907
+21 106 256 6916553 319 425 4058051
+22 0 2 21090 19 131 2440369
+23 7 50 1645345 11 27 204503
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 470 3658 71540308
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[\s_+:,\.\;\/\\-] 225 2616899 20170529200353 17
+googlebot 170 2428475 20170530053525 13
+yandex 162 1840384 20170531215451 35
+phantom 89 3046894 20170515133046 0
+checker 84 438508 20170529025654 6
+baiduspider 32 300240 20170531220527 0
+slurp 14 47747 20170530224917 6
+ia_archiver 8 72690 20170528141514 4
+python 7 218475 20170520053950 0
+unknown 5 1636 20170526135327 5
+java\/[0-9] 1 31290 20170512013007 0
+[\s_+:,\.\;\/\\-]bot 4 11715 20170531210442 2
+mail\.ru 2 6613 20170517032247 1
+facebook 5 1384715 20170520191937 0
+surveybot 2 6413 20170520151052 1
+favicon 2 12638 20170518160348 0
+msnbot\-media 1 6321 20170514225426 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 1128 17218819 0 0
+png 114 1163626 0 0
+json 6 10846 0 0
+php 32 157023 0 0
+html 228 2649862 0 0
+js 1765 22570549 0 0
+jpg 96 9209210 0 0
+Unknown 204 1572580 0 0
+gif 85 16987793 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 90 0 28128
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 251
+winxp 920
+winlong 41
+winnt 195
+winvista 126
+linux 58
+win7 1963
+macosx 48
+win2003 2
+Unknown 54
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 52
+msie6.0 46
+safari7.0 6
+opera9.70 1
+android 111
+chrome38.0.1025.166 1
+chrome58.0.3029.81 53
+firefox52.0 109
+chrome28.0.1500.95 8
+firefox18.0 2
+chrome56.0.2924.87 7
+curl 1
+chrome17.0.963.47 44
+chrome58.0.3029.110 380
+opera9.80 127
+iphone 41
+firefox3.5.0 1
+msie8.0 1162
+msie7.0 189
+chrome50.0.2661.102 41
+firefox40.1 1
+firefox41.0 1
+chrome40.0.2214.85 46
+chrome56.0.2924.76 23
+msie9.0 42
+chrome49.0.2623.112 37
+chrome42.0.2311.152 2
+firefox27.0 2
+chrome57.0.2987.137 65
+firefox32.0 1
+firefox50.0 1
+firefox53.0 77
+firefox3.0.16 1
+chrome49.0.2623.87 1
+chrome58.0.3029.83 138
+chrome37.0.2049.0 1
+chrome46.0.2490.71 91
+chrome54.0.2840.99 1
+firefox46.0 3
+firefox45.0 52
+chrome51.0.2704.103 88
+chrome45.0.2454.94 1
+chrome19.0.1084.5409 4
+firefox39.0 54
+mozilla 16
+netscape5.0 1
+chrome57.0.2987.133 85
+msie10.0 361
+chrome26.0.1410.63 1
+chrome48.0.2564.103 1
+chrome41.0.2228.0 1
+firefox 41
+firefox3.6.13 88
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+curl/7.26.0 20170512045146
+Opera/9.80_(Series_60;_Opera_Mini/7.0.28965/62.178;_U;_en)_Presto/2.12.423_Version/12.16 20170521034243
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170521105027
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 190 200
+From1 0 0
+From2 49 51
+From3 6 6
+From4 225 3401
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 7 9
+bing 8 8
+yandex 34 34
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://m.facebook.com 2 2
+http://away.vk.com/away.php 2 2
+http://mrdoob.com/projects/chromeexperiments/google-gravity/ 1 1
+https://yandex.ua/maps/960/zaporizhia/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+md.zp.ua 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+md.zp.ua 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 14 5522
+302 25 10878
+206 1 6390
+400 33 141636
+301 7 3093
+404 1499 22881914
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1230
+/save/l1nk3nd1n.txt 1 -
+/widget_comments.php 1 http://vk.com/js/api/openapi.js
+/lib 1 -
+/results/_negaa.txt 1 -
+/rz/dud.txt 1 -
+/r3zult/login.php 1 -
+/save/up.txt 1 -
+/save/index.txt 1 -
+/rst/LOGIN2.txt 1 -
+/rz/suck.txt 1 -
+/rz/vbv.php 1 -
+//license.php 1 -
+//administrator/includes/readmy.php 2 md.zp.ua
+/logi.txt 1 -
+//webconfig.txt.php 2 md.zp.ua
+/rst/am3x_akh93781indlappiew.txt 1 -
+//cache/news.php 2 md.zp.ua
+/log/7.txt 1 -
+/r3zult/paypal.html 1 -
+/theme/header.html 2 -
+/rst/Logins.txt 1 -
+//images/al277.php 2 md.zp.ua
+/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+/rz/input.txt 1 -
+/log/bot-_-.txt 1 -
+//libraries/joomla/wso.php 1 -
+/results/126.txt 1 -
+/r3zult/pass.txt 1 -
+/app 2 -
+/save/z.txt 1 -
+/rz/pass.txt 1 -
+//update.php 2 md.zp.ua
+/save/8.txt 1 -
+/log/9.txt 1 -
+/asdfdsafdsfsadf.php 1 -
+/save/pp_it_3.txt 1 -
+/rst/Resultat1.txt 1 -
+/rz/ips.txt 1 -
+/results/infosog.html 1 -
+/postFixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/fullz.txt 1 -
+/save/rzt.txt 1 -
+/results/paypal.html 1 -
+/log/da.txt 1 -
+/results/Fulzz.html 1 -
+/log/vbv.txt 1 -
+//media/404.php 2 md.zp.ua
+/inc/ 2 -
+/save/infosog.txt 1 -
+/Visit.txt 1 -
+/save/post.txt 1 -
+/rst/b1.txt 1 -
+/includes/database.php/ 1 -
+//images/laj.php 2 md.zp.ua
+/admin/images/save.png 1 -
+/results/Visits.txt 1 -
+/includes/stats.php 1 -
+/log/i.html 1 -
+/log/x63.pl 1 -
+/auth.logout 1 http://vk.com/js/api/openapi.js
+/r3zult/userz.txt 1 -
+//tmp.php 4 md.zp.ua
+/log/vu.txt 1 -
+/save/LOGIN2.txt 1 -
+/r3zult/post.txt 1 -
+/include/tpl_main.php 1 -
+/log/data_ip_masuk.txt 1 -
+/include/ 1 -
+/r3zult/bank.barclays.co.uk/assets/logs/barclays.txt 1 -
+//QexSKf.php 1 -
+/_negaa.txt 1 -
+/r3zult/BIl.txt 1 -
+/log/mrl.txt 1 -
+/rst/up2.txt 1 -
+/p.txt 1 -
+/log/DaCOO.html 1 -
+/rst/all_info.html 1 -
+/f3n0m3n22.txt 1 -
+/main.php 3 -
+/rst/a.txt 1 -
+/biling.php 1 -
+/r3zult/am3x.txt 1 -
+/log/k.txt 1 -
+/rst/secure/hotdsafe3wq.txt 1 -
+/results/lido.txt 1 -
+/rst/LOGIN1.txt 1 -
+/rst/assets/logs/hmrc.txt 1 -
+/results/Result-By-virus%20dz.txt 1 -
+/results/all_info.html 1 -
+/rz/mcard.txt 1 -
+/save/vu.txt 1 -
+/rst/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+//bookmark.php 2 md.zp.ua
+/img/flags 2 -
+/BnWWorker.js 3 http://md.zp.ua/design/templates/theme2022/js/jquery.BlackAndWhite.min.js
+//jconfig.php 2 md.zp.ua
+/log/l1nk3nd1n.txt 1 -
+/log/dani_bill.html 1 -
+/fileman/images/filetypes/file_extension_gif.png 3 http://md.zp.ua/fileman/
+/log/Resultat1.txt 1 -
+//images/w0rm.php 1 -
+//%20img/back 1 -
+/index.txt 1 -
+/images/flags/ag.png 1 -
+/theme/images/back-all.png 1 -
+/focusin.modal 3 http://md.zp.ua/design/media/jui/js/bootstrap.min.js
+/post.php 1 -
+/results/Xghost.txt 1 -
+/log/rzlt.php 1 -
+/save/anon.txt 1 -
+/images/delete.png 1 -
+//zibi.php 1 -
+/results/rzlt.html 1 -
+/results/mesaje.txt 1 -
+/save/result.txt 1 -
+/rst/dz.txt 1 -
+/rz/Unex.txt 1 -
+/resultaadose.txt 1 -
+/userz.txt 1 -
+/log/op.txt 1 -
+//includes/u2p.php 2 md.zp.ua
+//wp-content/plugins/wpfootes.php 2 md.zp.ua
+/rst/txt.txt 1 -
+/ui.droppable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+//robots.txt.php 2 md.zp.ua
+/save/heroshimav1.txt 1 -
+/ui.tabs 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/uploads/book/Support/ 5 -
+/wall.post 1 http://vk.com/js/api/openapi.js
+/includes/database.php 1 -
+/results/AUTH.txt 1 -
+/r3zult/Unex.txt 1 -
+/rz/XoZoK.txt 1 -
+/r3zult/assets/logs/hmrc.txt 1 -
+/img/ 4 -
+//news.php 2 md.zp.ua
+/r3zult/da.txt 1 -
+/rz/z3k4nt.txt 1 -
+/rst/CRED.txt 1 -
+/log/log.txt 1 -
+/r3zult/YaSser.txt 1 -
+/results/l0gz.txt 1 -
+/results/4.txt 1 -
+/rz/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+//images/stories/0day.php 3 -
+/save/error_rez.txt 1 -
+/rst/click.txt 1 -
+/save/test.txt 1 -
+/ui.buttonset 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/support.php 2 -
+/admin/resources/images/default/button/btn-arrow.gif 1 -
+/results/usere.html 1 -
+/pcmymake.txt 1 -
+/save/1.txt 1 -
+//images/defau1t.php 2 md.zp.ua
+/rz/b0a_CC_d7r5923t48267.txt 1 -
+/rz/freixlog.log 1 -
+/rst/data.txt 1 -
+/log/vbv.html 1 -
+/r3zult/dtma.txt 1 -
+/rst/alibaba.txt 1 -
+/results/l.txt 1 -
+/note.txt 1 -
+/log/009prsu0.txt 1 -
+/b0a_CC_d7r5923t48267.txt 1 -
+/rz/login.txt 1 -
+/robotz.txt 1 -
+/r3zult/IPBam.txt 1 -
+/log/accepted_visitors.txt 1 -
+/error_rez.txt 1 -
+/results/2.txt 1 -
+/rz/LOGIN1.txt 1 -
+/rz/visitors.txt 1 -
+/r3zult/up2.txt 1 -
+//administrator/dbconfig.php 2 md.zp.ua
+/widget_playlist.php 1 http://vk.com/js/api/openapi.js
+/b0/b0a_full_56897843553943.txt 1 -
+/save/da.txt 1 -
+/results/robotz.txt 1 -
+/keystrokes.php 1 -
+/results/R4Zult__. 1 -
+/r3zult/b0/b0a_CC_d7r5923t48267.txt 1 -
+/vendor 1 -
+/results/visit.txt 1 -
+/r3zult/hsbc.co.uk/assets/logs/hsbc.txt 1 -
+/results/apple_rezult.html 1 -
+//google-assist.php 2 md.zp.ua
+/rz/index.txt 1 -
+/rz/assets/logs/hmrc.txt 1 -
+/r3zult/R4Zult__. 1 -
+/log.txt 1 -
+/widget_contactus.php 1 http://vk.com/js/api/openapi.js
+/styles/main.css 1 -
+/fixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+//wp-cache.php 2 md.zp.ua
+/results/da.cfm 1 -
+/rz/AUTH.txt 1 -
+/rst/cont.txt 1 -
+/log/freixlog.log 1 -
+/include/tpl_commands-php 1 -
+/ui.dialog 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/css/table_view.css 1 -
+/rz/bill.txt 1 -
+/rz/b2.txt 1 -
+/intuit.txt 1 -
+/r3zult/js.txt 1 -
+/Data.txt 1 -
+//administrator/webconfig.txt.php 2 md.zp.ua
+/results/full.txt 1 -
+/163.txt 1 -
+/save/robotz.txt 1 -
+/rst/login.php 1 -
+//wp-content/uploads/Fbrrchive.php 2 md.zp.ua
+/tmp/logs/ 1 -
+/save/Cockis.txt 1 -
+/results/l0gs.txt 1 -
+/r3zult/info.txt 1 -
+//infos.php 2 md.zp.ua
+/img/logo.png 5 -
+/post/echo 1 -
+/results/resultat.txt 1 -
+/rz/kiki.txt 1 -
+/rst/b0/b0a_CC_d7r5923t48267.txt 1 -
+/results/dz.txt 1 -
+/adsfdsafas.php 1 -
+/rz/Xghost.txt 1 -
+/results/Resultat1.txt 1 -
+/r3zult/0.txt 1 -
+/rz/CC.txt 1 -
+/csop.htm 1 -
+/save/pcmymake.txt 1 -
+/rst/i.html 1 -
+/r3zult/result.txt 1 -
+//E.php 1 -
+/r3zult/up1.txt 1 -
+/rst/resultados.txt 1 -
+/rst/apple_rezult.html 1 -
+/r3zult/Xghost.html 1 -
+/rz/mrx.txt 1 -
+/language.php 1 -
+/log/passwords.txt 1 -
+/ui.tooltip 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/r3zult/resu.txt 1 -
+/save/intuit.txt 1 -
+/rz/pp_it_2.txt 1 -
+/save/001_bot.txt 1 -
+/bill.txt 1 -
+//mide.php 1 -
+/js/hideshow.js 2 -
+//up.php 1 -
+/r3zult/accepted_visitors.txt 1 -
+//wp-content/plugins/revslider/temp/update_extract/QexSKf.php 1 -
+//tmp/sfx.php 1 -
+/rz/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+/sitemap.xml 1 -
+/log/rzt.txt 1 -
+/templates/jtemplate/index.html 1 http://md.zp.ua/templates/jtemplate/index.html
+/save/login.php 1 -
+/log/dr.txt 1 -
+/results/paypal.txt 1 -
+/rz/Cockis.txt 1 -
+/r3zult/rzlt.html 1 -
+//wp-content/plugins/wp-cache.php 2 md.zp.ua
+/log/_negaa.txt 1 -
+//cache/clean.php 1 -
+/statss.php 1 -
+/r3zult/pswrds.txt 1 -
+/mousemove.hoverIntent 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/hoverIntent.js
+/126.txt 1 -
+/save/paypal%20full%20info.txt 1 -
+/vendor/ 1 -
+/r3zult/suck.txt 1 -
+/test.txt 1 -
+/bot-_-.txt 1 -
+/widget_like.php 1 http://vk.com/js/api/openapi.js
+/rst/info.txt 1 -
+/results/resu.txt 1 -
+/r3zult/razult.txt 1 -
+/r3zult/2.txt 1 -
+/gdx/gdx.php 1 -
+//sites/all/libraries/elfinder/files/QexSKf.php 1 -
+/rz/2.txt 1 -
+/rst/kiki.txt 1 -
+/sog.html 1 -
+/ui.spinner 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+//images/google-assist.php 2 md.zp.ua
+/detach.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/save/vbv.html 1 -
+/save/LOGIN.txt 1 -
+/dani_bill.html 1 -
+/results/ddsfdfqa.txt 1 -
+/results/rzlt.php 1 -
+/results/note.txt 1 -
+/rst/AUTH.txt 1 -
+/widget_community_messages.php 1 http://vk.com/js/api/openapi.js
+//wp-content/plugins/myshe.php 2 md.zp.ua
+/images/header.png 1 -
+/gate.php/ 1 -
+/r3zult/Result-By-virus%20dz.txt 1 -
+/rst/resultaadose.txt 1 -
+/save/data_ip_masuk.txt 1 -
+/results/amznn/cont.txt 1 -
+/rz/post.txt 1 -
+/log/LOGIN2.txt 1 -
+/rst/z3k4nt.txt 1 -
+/rz/p2.htm 1 -
+/connect.php 2 -
+/admin/resources/images/black/button/btn-arrow.gif 1 -
+/save/BIl.txt 1 -
+/XoZoK.txt 1 -
+/lending/img/fbi.png 1 -
+/focusin.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+/templates/j2template/index.html 1 http://md.zp.ua/templates/j2template/index.html
+/asfdasfasdfasdf.php 1 -
+/results/vu.txt 1 -
+/save/up2.txt 1 -
+/mm/dd/yy 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/rst/mrx.txt 1 -
+/r3zult/paypal%20full%20info.txt 1 -
+/r3zult/f3n0m3n22.txt 1 -
+/public 1 -
+/results/z.txt 1 -
+//uploadify/uploadify.php 1 http://md.zp.ua//uploadify/uploadify.php
+/r3zult/paypal.txt 1 -
+//media/jmail.php 1 -
+/log/l0gs.txt 1 -
+/rz/EMAIL.txt 1 -
+/post.txt 1 -
+/panel/login.php 1 -
+/rz/1.txt 1 -
+/rz/resultados.txt 1 -
+/results/koko.txt 1 -
+//tmp/petx.php 1 -
+/results/pp_it_2.txt 1 -
+/r3zult/z3k4nt.txt 1 -
+//images/404.php 2 md.zp.ua
+/r3zult/anon.txt 1 -
+/save/visit.txt 1 -
+/ui.selectable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/rst/ddsfdfqa.txt 1 -
+/rz/jokamer.txt 1 -
+/ui.progressbar 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/rst/Visits.txt 1 -
+/include/chart.php 1 -
+/results/Data.txt 1 -
+/rst/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+/log/b0/b0a_CC_d7r5923t48267.txt 1 -
+/results/ReZulT.txt 1 -
+/images/breadcrumb_divider.png 1 -
+/results/a.txt 1 -
+/images/info.png 1 -
+/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+/rst/p2.htm 1 -
+/save/5.txt 1 -
+//media/1ndex.php 2 md.zp.ua
+/admin/staticPage/update/id/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 10 http://md.zp.ua/admin/staticPage/update/id/5
+/save/infosog.html 1 -
+/save/all_info.html 1 -
+/results/data_ip_masuk.txt 1 -
+/save/yahya.txt 1 -
+/public/css/app.css 1 -
+/rz/logi.txt 1 -
+//wp-content/plugins/wp-footers.php 2 md.zp.ua
+/change.php 1 -
+/images/btn_submit.png 3 -
+/Result-By-virus%20dz.txt 1 -
+/widget_recommended.php 1 http://vk.com/js/api/openapi.js
+/widget_post.php 1 http://vk.com/js/api/openapi.js
+/wp-login.php 2 -
+//images/upxx.php 1 -
+/rst/input.txt 1 -
+/amznn/cont.txt 1 -
+/ui.sortable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/log/rzlt.html 1 -
+/save/am3x.txt 1 -
+//sqlbak.php 2 md.zp.ua
+/save/out.txt 1 -
+/save/pswrds.txt 1 -
+/r3zult/intuit.txt 1 -
+/rz/z.txt 1 -
+/rz/out.txt 1 -
+/save/Xghost.txt 1 -
+/rz/p.txt 1 -
+/auth.login 1 http://vk.com/js/api/openapi.js
+/alibaba.txt 1 -
+/images/icon1.png 1 -
+//images/stories/gass.php 1 -
+/r3zult/apple_ccv_info.html 1 -
+/rz/am3x_akh93781indlappiew.txt 1 -
+/resources/images/b.png 1 -
+/r3zult/x001.php 1 -
+/1405us3/FH5DK.C9EEFB351D64182C80BD71357AF85D04/5/spk/186.210.22.122/ 1 -
+/rz/vizite.html 1 -
+/1405us3/1M1BG.B9F58A1EF75CF4EE0F221AA254E17EEB/5/cert/2.93.26.226/ 1 -
+/rzlt.txt 1 -
+/uploads/book/support 1 -
+//libraries/respectMuslims.php 1 -
+/rz/apple_rezult.html 1 -
+/r3zult/secure/hotdsafe3wq.txt 1 -
+/YaSser.txt 1 -
+/save/dani_card.html 1 -
+/rz/009prsu0.txt 1 -
+/log/View.txt 1 -
+/android/admin.php 1 -
+/hsbc.co.uk/assets/logs/hsbc.txt 1 -
+/save/p2.htm 1 -
+/save/Fulzz.html 1 -
+//wsdl.php 2 md.zp.ua
+/uploads/xml.php 1 -
+/rst/4.txt 1 -
+//xup.php 1 -
+/vu.txt 1 -
+/r3zult/dr.txt 1 -
+//images/stories/filemga.php 1 -
+/rz/0.txt 1 -
+/focusout.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+/rst/BIl.txt 1 -
+//images/1ndex.php 2 md.zp.ua
+/preUnfixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/b2.txt 1 -
+/rst/bot-_-.txt 1 -
+/includes/commands.php/ 1 -
+/save/Xghost.html 1 -
+/results/LOGIN.txt 1 -
+/log/rezult.txt 1 -
+/rst/rzt.txt 1 -
+/admin/resources/images/default/menu/menu.gif 1 -
+/r3zult/koko.txt 1 -
+/results/mrl.txt 1 -
+/save/am3x_akh93781indlappiew.txt 1 -
+/mailbox.txt 1 -
+/card.txt 1 -
+/rz/paypal%20full%20info.txt 1 -
+/results/alibaba.txt 1 -
+/rz/sog.html 1 -
+/save/rzlt.php 1 -
+/ui.slider 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+//default_component.php 1 -
+/ui.resizable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/r3zult/bot-_-.txt 1 -
+/rz/001_bot.txt 1 -
+//x.php 1 -
+/rst/sog.html 1 -
+/rz/l1nk3nd1n.txt 1 -
+/mrl.txt 1 -
+//zebda.php 1 -
+/log/p2.htm 1 -
+/uploads/book/xml.php 13 -
+/rst/bank.barclays.co.uk/assets/logs/barclays.txt 1 -
+/rz/126.txt 1 -
+/statistics.php 3 -
+/rst/l.html 1 -
+/r3zult/fullz.txt 1 -
+//media/tmp.php 2 md.zp.ua
+/rst/vizite.html 1 -
+/include/login.php 1 -
+/save/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+/rz/passwd.txt 1 -
+/log/userz.txt 1 -
+/rz/Visits.txt 1 -
+/bank.barclays.co.uk/assets/logs/barclays.txt 1 -
+/messages.allowmessagesfromgroup 1 http://vk.com/js/api/openapi.js
+/log/razult.txt 1 -
+/admin/images/ 2 -
+/admin/resources/images/ 2 -
+/txt.txt 1 -
+//img/back 1 -
+//goog1es.php 2 md.zp.ua
+/results/visitors.txt 1 -
+/rz/bank.barclays.co.uk/assets/logs/barclays.txt 1 -
+/save/b2.txt 1 -
+/log/sog.html 1 -
+/r3zult/vu.txt 1 -
+/save/Logins.txt 1 -
+/r3zult/pinco1.txt 1 -
+/rst/l0gs.txt 1 -
+/rst/denied_visitors.txt 1 -
+/results/login.txt 1 -
+/log/x001.php 1 -
+/foo.bar 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/page.php 1 -
+/Unex.txt 1 -
+//m.php 1 -
+/images/preloaders/ 2 -
+/db_file.txt 1 -
+/components/com_jdownloads/jdownloads.js 1 -
+/save/passwords.txt 1 -
+/results/Visit.txt 1 -
+//images/xxx.php 2 md.zp.ua
+/rz/rzt.txt 1 -
+/save/126.txt 1 -
+/rst/7.txt 1 -
+/anon.txt 1 -
+/results/dtma.txt 1 -
+/x001.php 1 -
+/results/kiki.txt 1 -
+/includes/delete_command.php 1 -
+/r3zult/rzlt.php 1 -
+/rst/Xghost.html 1 -
+/deleteall.php 1 -
+/Fulzz.html 1 -
+/rz/usere.html 1 -
+/rz/ReZulT.txt 1 -
+/results/pp_it_3.txt 1 -
+/rz/b0a_full_56897843553943.txt 1 -
+/log/a.txt 1 -
+/assets/logs/hmrc.txt 1 -
+//images/stories/gh.php 1 -
+/save/dud.txt 1 -
+/img/banners 2 -
+/widget_community.php 1 http://vk.com/js/api/openapi.js
+/rst/xwnvdfhj.txt 1 -
+/results/0.txt 1 -
+/css/content.css 1 -
+/r3zult/infosog.html 1 -
+/log/result.txt 1 -
+/rz/download.php 1 -
+/ads_rotate.php 1 http://vk.com/js/api/openapi.js
+/r3zult/Logins.txt 1 -
+/cp.php 2 -
+/log/configuration.php 1 -
+/log/infosog.txt 1 -
+/js/tasks.js 2 -
+/rst/log.txt 1 -
+/results/f3n0m3n22.txt 1 -
+/results.txt 1 -
+/log/locker.txt 1 -
+/next/prev 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/l0gz.txt 1 -
+/rst/visitors.txt 1 -
+/tmp/ 1 -
+/include/inc_botlist.php 1 -
+/log/paypal.txt 1 -
+/avc1.42E01E 3 http://md.zp.ua/design/templates/theme2022/js/jquery.modernizr.min.js
+/save/dani_bill.html 1 -
+/rbs/assets/logs/rbs.txt 1 -
+/include/inc_commands.php 1 -
+/login/index.php 2 -
+/z.txt 1 -
+/log/LOGIN.txt 1 -
+//help.php 2 -
+/results/denied_visitors.txt 1 -
+/log/hsbc.co.uk/assets/logs/hsbc.txt 1 -
+/log/Xghost.html 1 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 1 http://md.zp.ua//sites/all/libraries/elfinder/php/connector.minimal.php
+/BIl.txt 1 -
+//cache/defau1t.php 2 md.zp.ua
+/rz/bbooaa.txt 1 -
+/rst/heroshimav1.txt 1 -
+/Cockis.txt 1 -
+/log/resultaadose.txt 1 -
+/tasks.php 4 -
+/save/log.txt 1 -
+/up1.txt 1 -
+/rst/infosog.html 1 -
+/save/b0a_full_56897843553943.txt 1 -
+/save/mailbox.txt 1 -
+/results/yahya.txt 1 -
+/use.txt 1 -
+/auth.loginStatus 1 http://vk.com/js/api/openapi.js
+/001_bot.txt 1 -
+/r3zult/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+/up2.txt 1 -
+/rz/l.html 1 -
+/rz/resultat.txt 1 -
+/rst/bill.txt 1 -
+/r3zult/mrx.txt 1 -
+/r3zult/data.txt 1 -
+//wp-content/plugins/Fbrrchive.php 2 md.zp.ua
+//wp-admin/admin-ajax.php 1 http://md.zp.ua//wp-admin/admin-ajax.php
+/dr.txt 1 -
+/app/ 1 -
+/results/Card.html 1 -
+//cache/cachee.php 2 md.zp.ua
+/rst/freixlog.log 1 -
+/rz/Card.html 1 -
+/rz/Ca.txt 1 -
+/rst/results.txt 1 -
+//b1.php 1 -
+/rst/out.txt 1 -
+//images/stories/alfa.php 1 -
+/theme/style.css 2 -
+/r3zult/index.txt 1 -
+/log/mailbox.txt 1 -
+/gate.php 3 -
+/monkey.php 1 -
+/anal.php 1 -
+/save/AUTH.txt 1 -
+/results/View.txt 1 -
+/ui.accordion 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/includes/ 1 -
+/heroshimav1.txt 1 -
+/rzlt.html 1 -
+//ny.php 1 -
+/results/am3x.txt 1 -
+/log/5.txt 1 -
+/rz/billing.html 1 -
+/rst/koko.txt 1 -
+//log.php 2 md.zp.ua
+/results/freixlog.log 1 -
+/rst/vbv.php 1 -
+/save/x63.pl 1 -
+/results/test.txt 1 -
+/include/function.php 1 -
+/save/dtma.txt 1 -
+/r3zult/log.txt 1 -
+/results/W3lls_AkjhshuajLD32oqwnks359ah.txt 1 -
+/xwnvdfhj.txt 1 -
+//error-log.php 2 md.zp.ua
+/results/DaCOO.html 1 -
+/log/bill.txt 1 -
+/results/7.txt 1 -
+/log/pcmymake.txt 1 -
+/passwords.php 1 -
+//email.php 2 md.zp.ua
+/config.php 5 -
+/rz/db_file.txt 1 -
+/log/csop.htm 1 -
+/r3zult/pp_it_2.txt 1 -
+//hh.php 1 -
+/preFixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+//img/softs 2 -
+//wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+/rz/b0/b0a_full_56897843553943.txt 1 -
+/r3zult/amznn/cont.txt 1 -
+/style.css 1 -
+/img/favicon.png 1 -
+/MSPointerDown.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+/save/ReZulT.txt 1 -
+/log/001_bot.txt 1 -
+/rz/locker.txt 1 -
+/valid/invalid 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/captcha.php 1 -
+/r3zult/rezult.txt 1 -
+/rz/b0/b0a_CC_d7r5923t48267.txt 1 -
+/rz/userz.txt 1 -
+/admin/resources/images/black/menu/menu.gif 1 -
+/log/l0gz.txt 1 -
+/results/BIl.txt 1 -
+//Jijle3.php 1 -
+/images/bar.png 1 -
+/results/drspam.txt 1 -
+//css.php 1 -
+/widget_subscribe.php 1 http://vk.com/js/api/openapi.js
+/visitors.txt 1 -
+/security_number.php 2 -
+//bin/logo_img.php 1 -
+/mouseleave.hoverIntent 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/hoverIntent.js
+/gdx/itnernal.php 1 -
+/r3zult/l.html 1 -
+/save/l0gz.txt 1 -
+/r3zult/vbv.php 1 -
+/log/dtma.txt 1 -
+/CONFIGURATION.php 1 -
+/rst/pinco1.txt 1 -
+/results/Ca.txt 1 -
+/r3zult/vizite.html 1 -
+/download.php 1 -
+/r3zult/8.txt 1 -
+/rz/Fulzz.html 1 -
+/results/result.txt 1 -
+/save/IPBam.txt 1 -
+/r3zult/LOGIN1.txt 1 -
+//wp-content/plugins/SocketIontrol.php 2 md.zp.ua
+/admin/templateBlock/update/id/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 8 http://md.zp.ua/admin/templateBlock/update/id/5
+/images/icn_edit.png 3 -
+/rst/auth.txt 1 -
+/mouseleave.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+//images/stories/u.php 1 -
+/log/BIl.txt 1 -
+/graphics/banner.png 1 -
+/rst/error_rez.txt 1 -
+/r3zult/test.txt 1 -
+/rz/b0adf87d89f/b0/b0a_full_56897843553943.txt 1 -
+//tmp/guide.php 1 -
+/r3zult/robotz.txt 1 -
+//al277.php 2 md.zp.ua
+/fxdm_oauth_proxy.html 1 http://vk.com/js/api/openapi.js
+/rz/cvv.txt 1 -
+/administrator/ 1 -
+/razult.txt 1 -
+/rst/suck.txt 1 -
+/vbv.txt 1 -
+/log/usere.html 1 -
+/save/k.txt 1 -
+/results/userz.txt 1 -
+/results/pp_it_1.txt 1 -
+/save/cvv.txt 1 -
+/results/use.txt 1 -
+/r3zult/rbs/assets/logs/rbs.txt 1 -
+/rst/Visit.txt 1 -
+/save/kiki.txt 1 -
+/rst/6.txt 1 -
+/r3zult/download.php 1 -
+/rz/denied_visitors.txt 1 -
+/rst/rezult.txt 1 -
+/js/manag.js 2 -
+//tmp/upxx.php 1 -
+//images/logo_img.php 1 -
+/results/p.txt 1 -
+/configuration.php 2 -
+/pp_it_1.txt 1 -
+/rz/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+//administrator/administrator.php 2 md.zp.ua
+/:80 1 -
+/r3zult/passwd.txt 1 -
+/styles/reset.css 1 -
+/statistics.php/ 1 -
+/lido.txt 1 -
+/scroll.droppable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/save/billing.html 1 -
+/log/vbv.php 1 -
+//tmp/bogel.php 1 -
+/save/DaCOO.html 1 -
+//cache/cache_aqbmkwwx.php 2 md.zp.ua
+/rst/mrl.txt 1 -
+/img/back 1 -
+//images/xxu.php 1 -
+/log/amznn/cont.txt 1 -
+/results/login.php 1 -
+/results/b0a_CC_d7r5923t48267.txt 1 -
+//u.php 1 -
+/rst/x63.pl 1 -
+/rst/index.txt 1 -
+//sql_dump.php 2 md.zp.ua
+/results/hsbc.co.uk/assets/logs/hsbc.txt 1 -
+//show.php 2 md.zp.ua
+/rst/vbv.txt 1 -
+/:8080 1 -
+/rst/note.txt 1 -
+/drspam.txt 1 -
+/r3zult/visits.txt 1 -
+/submit.php 1 -
+/rz/drspam.txt 1 -
+/result.txt 1 -
+/rz/data_ip_masuk.txt 1 -
+/resize.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/save/rzlt.html 1 -
+/load.mfploader 3 http://md.zp.ua/design/templates/theme2022/js/jquery.magnific-popup.min.js
+//go.php 1 -
+//images/robots.txt.php 2 md.zp.ua
+//wp-installation.php 1 -
+/images/arrow_left_ovr.png 1 -
+/log/resultados.txt 1 -
+/rst/flow.txt 1 -
+/b3.txt 1 -
+/save/163.txt 1 -
+/Ca.txt 1 -
+/log/pp_it_3.txt 1 -
+/r3zult/CRED.txt 1 -
+/:443 1 -
+/r3zult/infosog.txt 1 -
+/delete.php 1 -
+/results/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+/rst/Unex.txt 1 -
+/log/lido.txt 1 -
+/r3zult/login.txt 1 -
+//images/sym.php 1 -
+/results/b3.txt 1 -
+/results/l.html 1 -
+/yahya.txt 1 -
+/widget_allow_messages_from_community.php 1 http://vk.com/js/api/openapi.js
+//images/wp-mail.php 1 -
+/order.php 1 -
+/rz/flow.txt 1 -
+/client/accept.php 1 -
+/results/da.txt 1 -
+/log/l.html 1 -
+/vbv.php 1 -
+/ui.mouse 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/run.php 1 -
+/locker.txt 1 -
+/Logins.txt 1 -
+/widget_auth.php 1 http://vk.com/js/api/openapi.js
+//images/stories/0d4y.php 1 -
+//kk.php 1 -
+/asdfdsfasfdasfsd.php 1 -
+/r3zult/p.txt 1 -
+/dtma.txt 1 -
+/dani_card.html 1 -
+/results/up.txt 1 -
+/CC.txt 1 -
+/rz/vbv.html 1 -
+/rz/DaCOO.html 1 -
+/log/EMAIL.txt 1 -
+/log/4.txt 1 -
+/rst/vbv.html 1 -
+/log/pp_it_1.txt 1 -
+//site/tmp/cTivrC.php 2 md.zp.ua
+//wp-content/uploads/QexSKf.php 1 -
+/rz/txt.txt 1 -
+/0.txt 1 -
+/click.magnificPopup 3 http://md.zp.ua/design/templates/theme2022/js/jquery.magnific-popup.min.js
+/preAbsolute.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/rst/dani_bill.html 1 -
+/results/p2.htm 1 -
+/results/up2.txt 1 -
+/log/rzlt.txt 1 -
+/results/b0adf87d89f/b0/b0a_full_56897843553943.txt 1 -
+//img/logo.png 2 -
+/theme/images/back-all.jpg 1 -
+/save/db_file.txt 1 -
+/r3zult/apple_rezult.html 1 -
+/results/razult.txt 1 -
+/ReZulT.txt 1 -
+/rst/rbs/assets/logs/rbs.txt 1 -
+/save/b0/b0a_CC_d7r5923t48267.txt 1 -
+/log/apple_ccv_info.html 1 -
+/save/resultat.txt 1 -
+//SessionController.php 2 md.zp.ua
+//images/stories/shell.php 1 -
+/logout.php 3 -
+/full.txt 1 -
+/vbv.html 1 -
+/results/db_file.txt 1 -
+/r3zult/ddsfdfqa.txt 1 -
+/save/data.txt 1 -
+/rz/error_rez.txt 1 -
+/css/vectormap.css 2 -
+/postUnfixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/rst/test.txt 1 -
+/webcams.php 1 -
+/images/icn_search.png 1 -
+/results/8.txt 1 -
+/log/pswrds.txt 1 -
+/resu.txt 1 -
+/results/billing.html 1 -
+/LOGIN2.txt 1 -
+/save/Result-By-virus%20dz.txt 1 -
+/rst/jokamer.txt 1 -
+/save/mrl.txt 1 -
+/visits.txt 1 -
+/rst/da.txt 1 -
+/auth.onLogin 1 http://vk.com/js/api/openapi.js
+/save/l0gs.txt 1 -
+/save/cc.txt 1 -
+/save/pinco1.txt 1 -
+/xdm.init 1 http://vk.com/js/api/openapi.js
+/includes/hexdecode.php 1 -
+/log/b3.txt 1 -
+/save/Visits.txt 1 -
+/Card.html 1 -
+/fre.php 1 -
+//wp-main.php 2 md.zp.ua
+/results/log.txt 1 -
+/rst/b3.txt 1 -
+/log/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+//images/stories/ali.php 1 -
+/path/index.php 1 -
+//wp-content/plugins/sql_dump.php 2 md.zp.ua
+/log/full.txt 1 -
+/rz/up2.txt 1 -
+/save/bank.barclays.co.uk/assets/logs/barclays.txt 1 -
+/r3zult/Card.html 1 -
+//robot.php 2 md.zp.ua
+/results/heroshimav1.txt 1 -
+/results/click.txt 1 -
+/rz/rezult.txt 1 -
+/login.js 1 -
+/rst/Fulzz.html 1 -
+/cron.php 1 -
+/bbooaa.txt 1 -
+/b0a_full_56897843553943.txt 1 -
+/activity.set 1 http://vk.com/js/api/openapi.js
+/rz/data.txt 1 -
+/rst/userz.txt 1 -
+/ui.selectmenu 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/log/R4Zult__. 1 -
+/save/note.txt 1 -
+/al_widget_poll.php 1 http://vk.com/js/api/openapi.js
+/save/bbooaa.txt 1 -
+/rst/163.txt 1 -
+//img/back/hawk-clip-art-HAWK03.gif 2 -
+//ws0.php 1 -
+/log/Card.html 1 -
+/admin/flags/ 2 -
+/r3zult/mrl.txt 1 -
+/includes/send_command.php 1 -
+/main.css 1 -
+/images/jdownloads/screenshots/zedan.gif 1 -
+/log/error_rez.txt 1 -
+/mesaje.txt 1 -
+/results/XoZoK.txt 1 -
+/rz/csop.htm 1 -
+/r3zult/kiki.txt 1 -
+/log/W3lls_AkjhshuajLD32oqwnks359ah.txt 1 -
+/project.php 1 -
+/rst/configuration.php 1 -
+/results/info.txt 1 -
+/save/amznn/cont.txt 1 -
+/images/ico/ 2 -
+/results/mrx.txt 1 -
+/results/passwords.txt 1 -
+/results/am3x_akh93781indlappiew.txt 1 -
+/rst/use.txt 1 -
+/log/suck.txt 1 -
+//configbak.php 2 md.zp.ua
+/pswrds.txt 1 -
+/results/ips.txt 1 -
+/results/rzt.txt 1 -
+/save/configuration.php 1 -
+//media/reads.php 2 md.zp.ua
+//images/stories/xsamxadoo.php 1 -
+/afdsafsdaf.php 1 -
+/lend.php 2 -
+/mouseenter.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+//r3x.php 2 md.zp.ua
+/save/a.txt 1 -
+/rst/dani_card.html 1 -
+//images/p.php 1 -
+/images/png/ 2 -
+/rst/accepted_visitors.txt 1 -
+/rst/mesaje.txt 1 -
+/r3zult/b0a_CC_d7r5923t48267.txt 1 -
+/rz/pswrds.txt 1 -
+/op.txt 1 -
+/rst/x001.php 1 -
+/log/post.txt 1 -
+//images/stories/3xp.php 1 -
+//media/jss.php 1 -
+/save/razult.txt 1 -
+/save/View.txt 1 -
+/save/resu.txt 1 -
+/r3zult/yahya.txt 1 -
+/public/ 1 -
+/api/openapi.js 1 http://vk.com/js/api/openapi.js
+/ufr.php 1 -
+/rz/razult.txt 1 -
+/r3zult/Visit.txt 1 -
+/rst/full.txt 1 -
+/include/config.php 1 -
+/rz/resultaadose.txt 1 -
+//Abbrevsprl.php 2 md.zp.ua
+/rz/pp_it_1.txt 1 -
+/rst/ips.txt 1 -
+/results/index.txt 1 -
+/results/EMAIL.txt 1 -
+/log/am3x_akh93781indlappiew.txt 1 -
+/results/163.txt 1 -
+/rz/info.txt 1 -
+/rz/l0gz.txt 1 -
+/21421asdfdsf.php 1 -
+//tmp/pz.php 1 -
+/rz/dz.txt 1 -
+/rst/op.txt 1 -
+/r3zult/dani_bill.html 1 -
+/6.txt 1 -
+/save/txt.txt 1 -
+/results/LOGIN2.txt 1 -
+/include/activecmd.php 1 -
+/log/xwnvdfhj.txt 1 -
+/rz/dtma.txt 1 -
+/admin.php 8 -
+/usere.html 1 -
+/rz/163.txt 1 -
+/save/b1.txt 1 -
+/rz/paypal.html 1 -
+/save/b0a_CC_d7r5923t48267.txt 1 -
+/images/icon3.png 1 -
+/5.txt 1 -
+/r3zult/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+//wp-configuration.php 1 -
+/results/009prsu0.txt 1 -
+/rst/intuit.txt 1 -
+/rz/rbs/assets/logs/rbs.txt 1 -
+/save/Ca.txt 1 -
+//includes.php 2 md.zp.ua
+//modules/mod_simplefileuploadv1.3/elements/QexSKf.php 1 -
+/rst/_negaa.txt 1 -
+/log/am3x.txt 1 -
+/save/userz.txt 1 -
+/log/visit.txt 1 -
+/securimage/backgrounds 1 -
+/log/cont.txt 1 -
+/log/2.txt 1 -
+/rst/b2.txt 1 -
+/log/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+/rz/results.txt 1 -
+/rst/am3x.txt 1 -
+/save/7.txt 1 -
+/r3zult/drspam.txt 1 -
+/r3zult/sog.html 1 -
+/save/card.txt 1 -
+/save/apple_rezult.html 1 -
+/save/0.txt 1 -
+//libraries/joomla/web.php 1 -
+/results/accepted_visitors.txt 1 -
+/save/bill.txt 1 -
+/dz.txt 1 -
+/r3zult/pp_it_3.txt 1 -
+/auth.sessionChange 1 http://vk.com/js/api/openapi.js
+/auth.statusChange 1 http://vk.com/js/api/openapi.js
+//thumb.php 2 md.zp.ua
+/index.html 2 -
+/results/b0a_full_56897843553943.txt 1 -
+/am3x.txt 1 -
+/img 3 -
+/results/txt.txt 1 -
+/results/vbv.php 1 -
+/create.php 1 -
+/log/dud.txt 1 -
+/rz/BIl.txt 1 -
+/fileman/Uploads/wso.php 1 -
+//maill.php 2 md.zp.ua
+/results/input.txt 1 -
+/save/freixlog.log 1 -
+/results/pass.txt 1 -
+/js/main.js 1 -
+/method/ 1 http://vk.com/js/api/openapi.js
+/results/x001.php 1 -
+/rz/mesaje.txt 1 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://md.zp.ua//modules/mod_simplefileuploadv1.3/elements/udd.php
+/log/login.php 1 -
+//img/flags 2 -
+//images/head.php 2 md.zp.ua
+/log/koko.txt 1 -
+/save/js.txt 1 -
+/b1.txt 1 -
+/rz/vu.txt 1 -
+/rst/visits.txt 1 -
+/rz/LOGIN.txt 1 -
+/log/YaSser.txt 1 -
+/save/YaSser.txt 1 -
+/r3zult/auth.txt 1 -
+/tmp/logs 1 -
+/results/CRED.txt 1 -
+/r3zult/denied_visitors.txt 1 -
+//bgeiis.php 2 md.zp.ua
+/uploads/privmailer.php 1 -
+/results/l1nk3nd1n.txt 1 -
+/log/drspam.txt 1 -
+/rz/Xghost.html 1 -
+/log/note.txt 1 -
+/log/Visit.txt 1 -
+/results/k.txt 1 -
+/r3zult/visitors.txt 1 -
+/paypal.txt 1 -
+//install.php 2 md.zp.ua
+/log/alibaba.txt 1 -
+//cli/40dd1d.php 2 md.zp.ua
+//wp-content/plugins/SocketIasrgasfontrol.php 2 md.zp.ua
+/r3zult/b1.txt 1 -
+/data.txt 1 -
+/login.php 15 -
+/log/Ca.txt 1 -
+/click.superfish 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/superfish.min.js
+/save/R4Zult__. 1 -
+/log/input.txt 1 -
+/r3zult/all_info.html 1 -
+/log/apple_rezult.html 1 -
+/r3zult/note.txt 1 -
+/log/126.txt 1 -
+/r3zult/txt.txt 1 -
+/1.txt 1 -
+/rz/yahya.txt 1 -
+/rst/YaSser.txt 1 -
+//images/upa.php 1 -
+//images/stories/webroot.php 1 -
+/save/passwd.txt 1 -
+/log/AUTH.txt 1 -
+//images/stories/a.php 1 -
+//configurationbak.php 2 md.zp.ua
+//nktt.php 1 -
+/blank.gif 3 http://md.zp.ua/design/modules/mod_image_swoop/js/camera.min.js
+/style_light.css 1 -
+/save/paypal.html 1 -
+/lending/index.php 5 -
+/mouseenter.hoverIntent 3 http://md.zp.ua/design/modules/mod_superfish_menu/js/hoverIntent.js
+//logs.asp 2 md.zp.ua
+/r3zult/Resultat1.txt 1 -
+//dswat.org/wsdl.php 2 md.zp.ua
+/log/dz.txt 1 -
+/r3zult/bill.txt 1 -
+/suck.txt 1 -
+//media/mass.php 1 -
+/results/resultados.txt 1 -
+/rst/db_file.txt 1 -
+/log/page.att.net/my_account_d876sf5f6f6d7/up.txt 1 -
+/rz/i.html 1 -
+/rz/IPBam.txt 1 -
+/ui.menu 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/rst/2.txt 1 -
+/results/cvv.txt 1 -
+/9.txt 1 -
+/log/logi.txt 1 -
+/log/ips.txt 1 -
+/results/3.txt 1 -
+/rz/da.cfm 1 -
+/rst/drspam.txt 1 -
+//active.php 1 -
+/save/ips.txt 1 -
+/unfixed.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/images/user_female.png 1 -
+//functions.php 2 md.zp.ua
+/r3zult/Ca.txt 1 -
+/rst/logi.txt 1 -
+/tmp 1 -
+/save/vizite.html 1 -
+//up14.php 1 -
+/back.css 1 -
+/files 2 -
+/rz/b3.txt 1 -
+/log/anon.txt 1 -
+/rst/csop.htm 1 -
+/r3zult/cvv.txt 1 -
+/rz/R4Zult__. 1 -
+/rz/visits.txt 1 -
+/rst/rzlt.txt 1 -
+/results/LOGIN1.txt 1 -
+/save/drspam.txt 1 -
+//images/stories/s.php 1 -
+/images/header.jpg 1 -
+/b0adf87d89f/b0/b0a_CC_d7r5923t48267.txt 1 -
+//authenticating.php 2 md.zp.ua
+/includes 1 -
+/log/pp_it_2.txt 1 -
+/%20img/back 1 -
+//libraries/joomla/css.php 1 -
+/css/reset.css 1 -
+/log/z.txt 1 -
+/rst/R4Zult__. 1 -
+/save/dr.txt 1 -
+/fileman/images/filetypes/file_extension_jpg.png 3 http://md.zp.ua/fileman/
+/r3zult/freixlog.log 1 -
+//cache/list.php 2 md.zp.ua
+/admin/images/add.png 1 -
+/rst/3.txt 1 -
+/r3zult/LOGIN.txt 1 -
+/ui.draggable 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/save/paypal.txt 1 -
+/rz/cont.txt 1 -
+/results/post.txt 1 -
+/uploads/book/privmailer.php 4 -
+/ui.autocomplete 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/ui.button 1 http://code.jquery.com/ui/1.11.0/jquery-ui.js
+/results/auth.txt 1 -
+//shootme.php 2 md.zp.ua
+/r3zult/9.txt 1 -
+/cc.txt 1 -
+//wp-data.php 2 md.zp.ua
+/rst/resultat.txt 1 -
+/input.txt 1 -
+//wp_logns.php 1 -
+//wp-content/plugins/Analyser.php 2 md.zp.ua
+/r3zult/card.txt 1 -
+/log/dani_card.html 1 -
+/home.php 1 -
+//RoseLeif.php 2 md.zp.ua
+/resize.centerIn 3 http://md.zp.ua/design/templates/theme2022/js/jquery.centerIn.js
+//cache/support.php 2 md.zp.ua
+/lending/img/arab.png 3 -
+/images/bck_attention.png 1 -
+/images/gear.png 1 -
+/save/visits.txt 1 -
+/rz/9.txt 1 -
+/rst/infosog.txt 1 -
+/save/use.txt 1 -
+/rz/xwnvdfhj.txt 1 -
+/img/softs 2 -
+/Microsoft.XMLHTTP 3 http://md.zp.ua/
+/rz/_negaa.txt 1 -
+/rz/dani_bill.html 1 -
+/rst/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+/rz/4.txt 1 -
+/results/Cockis.txt 1 -
+/includes/bot_info.php 1 -
+/rst/Cockis.txt 1 -
+/api.php 1 -
+/results/pinco1.txt 1 -
+/asdfddsas.php 1 -
+//xmlsrpc.php 2 md.zp.ua
+/stats.php 1 -
+/rz/pcmymake.txt 1 -
+/results/YaSser.txt 1 -
+/error.mfploader 3 http://md.zp.ua/design/templates/theme2022/js/jquery.magnific-popup.min.js
+/l1nk3nd1n.txt 1 -
+/windows.microsoft.com/en-US/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode 1 -
+/rz/configuration.php 1 -
+/rz/log.txt 1 -
+/results/x63.pl 1 -
+/rz/hsbc.co.uk/assets/logs/hsbc.txt 1 -
+/img/back/hawk-clip-art-HAWK03.gif 2 -
+/scroll.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/r3zult/b0adf87d89f/b0/b0a_full_56897843553943.txt 1 -
+/log/b0a_CC_d7r5923t48267.txt 1 -
+/rst/DaCOO.html 1 -
+/rst/IPBam.txt 1 -
+/r3zult/results.txt 1 -
+/r3zult/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+/style_dark.css 2 -
+/results/rzlt.txt 1 -
+//images/stories/black.php 1 -
+/save/alibaba.txt 1 -
+/ips.txt 1 -
+/log/Data.txt 1 -
+//elements.php 2 md.zp.ua
+/management.php 2 -
+/r3zult/click.txt 1 -
+/save/CC.txt 1 -
+/save/online.lloydsbank.co.uk/assets/logs/llo.txt 1 -
+/results/Logins.txt 1 -
+/save/Data.txt 1 -
+//files 2 -
+/admin/resources/css/ 2 -
+/rz/Logins.txt 1 -
+/cont.txt 1 -
+/includes/commands.php 1 -
+/save/full.txt 1 -
+/log/up1.txt 1 -
+/data/login.css 1 -
+/b0/b0a_CC_d7r5923t48267.txt 1 -
+/asfdfa.php 1 -
+/save/op.txt 1 -
+/rst/data_ip_masuk.txt 1 -
+/save/results.txt 1 -
+/r3zult/dani_card.html 1 -
+/rz/use.txt 1 -
+/r3zult/4.txt 1 -
+/results/b2.txt 1 -
+/r3zult/EMAIL.txt 1 -
+/postAbsolute.ScrollToFixed 3 http://md.zp.ua/design/templates/theme2022/js/jquery-scrolltofixed-min.js
+/r3zult/data_ip_masuk.txt 1 -
+/save/pass.txt 1 -
+/lib/ 1 -
+//libraries/joomla/zipy.php 1 -
+/save/XoZoK.txt 1 -
+/Resultat1.txt 1 -
+//media/css.php 1 -
+/rz/bot-_-.txt 1 -
+/save/pp_it_1.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 186
+212.47.233.68 90 94 1470873 20170514210805
+178.210.205.16 44 206 3732216 20170520082638
+110.136.20.51 33 54 497450 20170524142245
+46.119.212.68 32 150 2624888 20170519173743
+93.175.208.123 14 65 2484180 20170515115952
+192.99.44.141 12 12 287044 20170521105028
+176.14.254.240 12 239 2685973 20170529094236
+31.168.158.239 10 94 3064476 20170515133831
+93.76.113.2 9 52 944610 20170529200701
+204.13.201.137 9 123 1382019 20170530125906
+157.55.2.147 0 1 7782 
+66.102.8.209 0 10 228674 
+86.110.118.194 1 1 30735 20170521095127
+204.79.180.79 0 1 8097 
+204.79.180.117 0 1 3180 
+4.14.64.139 0 2 18823 
+163.172.133.14 1 1 6317 20170512013048
+89.244.66.224 1 29 491128 20170514214232
+79.79.151.134 1 1 31290 20170512010422
+180.254.105.39 0 1 165414 
+128.69.225.174 1 22 300303 20170527003924
+217.69.133.169 1 1 6119 20170520205213
+188.32.189.118 0 21 799342 
+95.221.60.202 2 39 719821 20170520160112
+93.115.97.118 2 2 62580 20170512164614
+78.47.189.209 4 4 25268 20170516235632
+196.52.48.17 2 2 12634 20170512013513
+4.14.64.134 0 2 4398 
+4.14.64.132 0 2 27958 
+93.76.66.103 2 41 640669 20170530202155
+204.79.180.0 0 1 874 
+95.108.149.136 4 4 124050 20170528165910
+217.69.143.217 1 1 6119 20170520184356
+204.79.180.26 0 1 4938 
+91.225.118.181 1 1 4726 20170523152915
+95.220.33.88 2 42 727147 20170528063254
+204.79.180.228 0 1 15839 
+91.204.60.252 2 37 427638 20170524141009
+89.244.73.215 2 30 974169 20170515211655
+196.52.48.82 1 1 6317 20170514210951
+78.109.23.1 1 1 31290 20170514210722
+204.79.180.214 0 1 1392 
+176.14.23.48 2 2 58411 20170527232112
+204.8.156.142 7 52 1204293 20170524170551
+204.79.180.231 0 1 26675 
+204.79.180.111 0 1 4023 
+204.79.180.200 0 1 21 
+104.237.242.129 2 2 31455 20170512213435
+4.14.64.146 1 1 31290 20170512041531
+95.221.244.21 4 60 1168810 20170529075443
+4.14.64.155 0 1 145857 
+121.242.235.146 1 1 6317 20170512013657
+128.52.128.105 1 1 31290 20170512043635
+204.79.180.84 0 2 6599 
+46.119.202.197 7 50 1161862 20170522105221
+4.14.64.148 0 2 3909 
+128.72.11.145 3 43 733276 20170528122412
+128.69.145.197 3 58 741741 20170529094252
+192.160.102.166 1 1 31290 20170512010423
+38.80.23.183 1 1 31290 20170515093413
+103.12.113.2 0 1 176318 
+128.69.155.42 1 7 316961 20170527134645
+4.14.64.128 0 2 2379 
+223.206.236.13 1 1 30819 20170524000029
+4.14.64.153 0 2 12741 
+204.79.180.255 0 2 31882 
+92.6.210.224 1 1 31290 20170514210724
+150.70.173.46 1 1 31290 20170515125909
+204.13.201.139 8 84 984231 20170519173114
+158.69.241.239 1 1 1996 20170511174737
+46.164.129.178 3 47 1826001 20170516113817
+193.169.135.133 1 1 31290 20170512010422
+194.28.182.54 3 44 944226 20170519182300
+91.223.82.156 1 1 31290 20170512043634
+5.44.173.52 1 1 6129 20170523165308
+128.68.218.122 2 42 727147 20170527135243
+4.14.64.131 0 1 7782 
+204.79.180.115 0 2 43821 
+84.163.149.120 1 3 192986 20170512133949
+204.79.180.57 0 1 3897 
+197.0.217.33 1 38 442710 20170528155541
+204.79.180.120 0 1 1396 
+5.228.21.22 2 42 727147 20170528044640
+94.50.1.142 1 1 6232 20170523152831
+4.14.64.142 0 3 320030 
+204.79.180.150 0 1 20962 
+204.79.180.161 0 1 7787 
+204.79.180.102 0 1 1958 
+188.32.40.153 4 84 1454294 20170529100701
+4.14.64.135 0 2 29199 
+204.79.180.66 0 1 6804 
+204.79.180.4 0 1 1804 
+65.55.210.88 0 1 7787 
+46.119.227.160 2 41 640667 20170522231202
+4.14.64.141 0 1 276943 
+204.79.180.236 0 1 501 
+204.79.180.143 0 1 331 
+64.137.189.245 1 1 30735 20170519173307
+180.246.119.15 1 37 437028 20170523072928
+89.244.71.41 0 31 783771 
+89.238.178.25 0 2 21090 
+2.92.192.166 2 23 723107 20170518120406
+204.79.180.146 1 2 11314 20170517024611
+38.80.23.54 1 1 31290 20170511234101
+204.79.180.29 0 1 983 
+4.14.64.138 0 24 1065837 
+178.62.99.175 5 5 27066 20170519173612
+4.14.64.159 0 2 5164 
+68.177.70.234 1 36 416269 20170512012550
+95.175.97.229 1 1 6317 20170519011644
+204.79.180.190 0 1 4206 
+204.79.180.52 0 1 1194 
+221.235.66.116 1 1 30735 20170522061342
+95.27.251.238 6 114 1274490 20170528114418
+84.163.136.231 0 2 1417 
+178.17.170.196 1 1 5483 20170511174205
+62.67.194.35 1 1 31290 20170512045147
+193.90.12.86 1 1 31290 20170514210722
+4.14.64.150 1 2 26155 20170512041535
+218.249.89.194 5 111 1825762 20170530131046
+204.79.180.78 0 1 1441 
+95.220.23.210 1 23 633223 20170521004317
+66.102.8.205 1 16 168149 20170518185038
+204.79.180.229 0 1 8535 
+95.221.196.23 1 26 308484 20170522001601
+46.119.192.7 2 44 1522449 20170516152717
+114.115.190.4 1 1 6119 20170520112148
+204.79.180.194 0 1 731 
+107.167.113.164 1 42 452695 20170521034241
+4.14.64.149 1 45 869372 20170527042932
+188.32.238.159 4 100 1509707 20170529034914
+204.79.180.82 0 1 145857 
+84.163.142.18 0 22 870115 
+4.14.64.156 0 1 4938 
+54.233.124.147 1 1 31290 20170512010424
+84.163.146.155 1 15 353726 20170512134356
+84.163.146.201 0 4 510795 
+4.14.64.158 0 1 15839 
+62.64.86.132 1 1 6129 20170523154609
+150.70.173.48 1 1 31290 20170515125908
+84.163.153.77 0 1 4423 
+84.33.17.229 1 1 31290 20170514210728
+37.9.118.55 0 4 902343 
+204.79.180.215 0 1 15511 
+150.70.173.55 2 2 61470 20170530131317
+84.163.130.193 1 25 1354573 20170514214141
+176.195.248.30 2 39 428718 20170518004337
+188.255.21.104 2 41 746262 20170514192220
+176.195.110.212 2 37 422586 20170518065217
+4.14.64.154 0 24 279003 
+77.40.129.123 6 132 4567347 20170514210459
+173.244.36.24 4 46 1585029 20170514042708
+104.237.242.192 2 2 31455 20170512123153
+4.14.64.140 0 2 10827 
+4.14.64.152 1 2 70688 20170512041521
+46.161.9.35 1 1 24033 20170512194910
+204.79.180.160 1 1 6317 20170517024604
+188.187.20.161 2 40 429912 20170512045934
+204.79.180.227 0 1 2429 
+4.14.64.145 1 24 326484 20170528084312
+4.14.64.143 0 2 311388 
+73.164.166.179 2 41 640667 20170519173315
+150.70.173.6 1 1 31290 20170514132907
+62.67.194.183 1 1 165 20170512045146
+91.121.83.118 1 1 6317 20170514230803
+4.14.64.137 1 3 44514 20170527042926
+84.33.25.117 1 1 31290 20170512010422
+192.3.120.46 1 1 31290 20170514112006
+4.14.64.136 0 1 2429 
+139.59.149.99 2 2 12436 20170530130430
+204.79.180.245 0 1 17949 
+89.178.91.242 2 42 727147 20170514041740
+192.241.160.82 1 1 6317 20170512011342
+185.137.19.240 5 47 910767 20170523145836
+81.90.236.245 3 5 315810 20170523172917
+204.79.180.44 0 1 5683 
+4.14.64.130 1 24 455553 20170512041525
+176.195.107.198 4 81 1446968 20170518071944
+64.74.215.142 2 23 195368 20170514045252
+204.79.180.237 0 1 7199 
+204.79.180.42 0 1 7782 
+66.102.8.207 0 12 45887 
+197.2.21.21 1 38 442710 20170517192437
+159.203.0.156 1 1 31290 20170514210723
+4.14.64.129 1 4 63114 20170528084308
+188.244.43.200 1 8 317204 20170530172144
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20170511 37 118 2089166 7
+20170512 44 465 12785762 31
+20170513 4 4 75214 4
+20170514 119 398 8806325 20
+20170515 25 166 4897796 9
+20170516 6 92 3354767 3
+20170517 4 79 903912 4
+20170518 13 279 4693343 7
+20170519 58 377 6492131 10
+20170520 7 83 1378845 5
+20170521 18 134 1920009 6
+20170522 17 245 4261700 8
+20170523 14 95 1882970 10
+20170524 43 144 2160200 4
+20170526 4 82 1156861 2
+20170527 9 138 2673068 7
+20170528 13 249 4355397 9
+20170529 25 377 5556999 10
+20170530 10 133 2095843 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 2
+15mn-30mn 3
+2mn-5mn 5
+30s-2mn 6
+0s-30s 142
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/ 220 2578768 113 76
+/design/media/com_acymailing/js/acymailing_module.js@v=441 75 798300 17 60
+/site/contact 31 232935 23 14
+/fileman/php/thumb.php 18 89362 0 0
+/admin/default/login 16 29805 2 2
+/site/index 11 69041 1 1
+/site/page/3 10 97922 2 2
+/admin/templateBlock/index 8 14568 0 0
+/site/page/6 6 43121 1 2
+/admin/staticPage/index 6 12504 0 0
+/fileman/php/dirtree.php 2 872 0 0
+/fileman/lang/en.json 4 7338 0 0
+// 3 43369 1 1
+/admin/staticPage/index/id/2 1 2090 0 0
+/site/page/5 4 39859 0 1
+/admin/staticPage/update/id/11 1 4445 0 0
+/admin/templateBlock/update/id/2 2 3853 0 0
+/admin/templateBlock/update/id/5 1 1901 0 0
+/site/page/7 1 20127 0 0
+/site/page/2 4 36832 0 0
+/site/ 4 25070 0 0
+/site/page/1 5 28949 0 1
+/fileman/conf.json 2 3508 0 0
+/site/page/10 1 19268 0 0
+/admin/staticPage/index/StaticPage_page/2 1 1938 0 0
+/site/page/9 3 29496 0 0
+/site/page/13 2 11086 0 0
+/site/page/4 2 12088 0 0
+/fileman/php/upload.php 3 1361 0 0
+/admin/templateBlock/update/id/1 1 2157 0 0
+/admin/staticPage/index/id/5 1 2089 0 0
+/site/page/8 2 24720 0 0
+/admin/staticPage/update/id/2 1 2781 0 0
+/admin/staticPage/index/id/11 1 2091 0 0
+/admin/staticPage/index/id/3 2 4180 0 0
+/admin/staticPage/update/id/5 1 3313 0 0
+/fileman/php/fileslist.php 3 2553 0 1
+/index.php 6 62875 1 1
+/admin/staticPage/update/id/3 2 7609 0 0
+/site/page/11 2 13512 0 0
+/fileman/ 1 2655 1 0
+END_SIDER

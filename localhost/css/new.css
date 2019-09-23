@@ -1,0 +1,25 @@
+.bg_cont {
+
+    padding-top: 0px!important;
+}
+
+
+.navigation ul.sf-menu > li > a, .navigation ul.sf-menu > li > span {
+    width: 105px!important;
+}
+
+
+.courses .item_title a strong {
+    font-size: 19px!important;
+}
+
+
+.new_span {
+    height: 217px!important;
+}
+
+
+/*.courses .item_title a strong {
+    color: #bd8431!important;
+ 
+}*/
