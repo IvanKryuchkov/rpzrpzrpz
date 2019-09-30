@@ -1,5 +1,5 @@
 <?php
-
+use app\models\Post;
 class SiteController extends Controller {
 
     public function actions() {
@@ -17,13 +17,14 @@ class SiteController extends Controller {
         );
     }
 
-    public function actionIndex() {
-
-
-
-        $this->render('index', array(
-        ));
-    }
+/*public function actionIndex()
+{
+    $post = new Post;
+    $data = $post->find()->all();
+    echo $this->render('index', array(
+        'data' => $data
+    ));
+} */
 
     public function actionPage($id) {
 
