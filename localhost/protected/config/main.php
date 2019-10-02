@@ -47,7 +47,6 @@ return array(
         ),
         // database settings are configured in database.php
         'db' => array(
-			'class' => 'yii\db\Connection',
             'connectionString' => 'mysql:host=localhost;dbname=meridian',
             'emulatePrepare' => true,
             'username' => 'meridian',
