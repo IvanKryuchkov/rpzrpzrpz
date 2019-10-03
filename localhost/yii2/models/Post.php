@@ -1,5 +1,6 @@
 <?php
 namespace app\models;
+use \yii\db\Expression;
 class Post extends \yii\db\ActiveRecord
 {
     /**
@@ -41,4 +42,18 @@ class Post extends \yii\db\ActiveRecord
             'updated' => 'Updated',
         );
     }
+
+	public function beforeSave($insert)
+		{
+			if ($this->isNewRecord)
+			{
+				$this->created = new Expression('NOW()');
+				$command = static::getDb()->createCommand("select max(id) as id from posts")->queryAll();
+				$this->id = $command[0]['id'] + 1;
+			}
+		 
+			$this->updated = new Expression('NOW()');
+			return parent::beforeSave($insert);
+		}
+
 }

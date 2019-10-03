@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 use \yii\base\HttpException;
+use \yii\db\Expression;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -12,6 +13,7 @@ use app\models\ContactForm;
 use app\models\Post;
 
 
+
 class SiteController extends Controller
 {
 	
@@ -19,11 +21,75 @@ class SiteController extends Controller
 		{
 
 	 
-
+			$post = Post::findOne($id);
 			echo $this->render('read', array(
 				'post' => $post
 			));
 		}
+		
+		public function actionDelete($id=NULL)
+		{
+				if ($id === NULL)
+			{
+				Yii::$app->session->setFlash('PostDeletedError');
+				Yii::$app->getResponse()->redirect(array('site/index'));
+			}
+		 
+			$post = Post::findOne($id);
+		 
+		 
+			if ($post === NULL)
+			{
+				Yii::$app->session->setFlash('PostDeletedError');
+				Yii::$app->getResponse()->redirect(array('site/index'));
+			}
+		 
+			$post->delete();
+		 
+			Yii::$app->session->setFlash('PostDeleted');
+			Yii::$app->getResponse()->redirect(array('site/index'));
+		}
+		
+		public function actionCreate()
+		{
+			$model = new Post;
+			if (isset($_POST['Post']))
+			{
+				$model->title = $_POST['Post']['title'];
+				$model->content = $_POST['Post']['content'];
+		 
+				if ($model->save())
+					Yii::$app->response->redirect(array('site/read', 'id' => $model->id));
+			}
+		 
+			echo $this->render('create', array(
+				'model' => $model
+			));
+		}
+		
+		public function actionUpdate($id=NULL)
+			{
+				if ($id === NULL)
+					throw new HttpException(404, 'Not Found');
+			 
+				$model = Post::findOne($id);
+			 
+				if ($model === NULL)
+					throw new HttpException(404, 'Document Does Not Exist');
+			 
+				if (isset($_POST['Post']))
+				{
+					$model->title = $_POST['Post']['title'];
+					$model->content = $_POST['Post']['content'];
+			 
+					if ($model->save())
+						Yii::$app->response->redirect(array('site/read', 'id' => $model->id));
+				}
+			 
+				echo $this->render('create', array(
+					'model' => $model
+				));
+			}
     /**
      * {@inheritdoc}
      */
@@ -145,5 +211,15 @@ class SiteController extends Controller
         return $this->render('about');
     }
 	
+	public function beforeSave($insert)
+		{
+			if ($this->isNewRecord)
+			{
+				$command = static::getDb()->createCommand("select max(id) as id from posts")->queryAll();
+				$this->id = $command[0]['id'] + 1;
+			}
+		 
+			return parent::beforeSave($insert);
+		}
 
 }
