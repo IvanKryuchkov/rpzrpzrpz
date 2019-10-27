@@ -1,6 +1,6 @@
 <?php use yii\helpers\Html; ?>
  
-<?php echo Html::a('Create New Post', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
+<?php echo Html::a(Yii::t('yii','Create New Post'), array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 <div class="clearfix"></div>
 <hr />
 <?php if(Yii::$app->session->hasFlash('PostDeletedError')): ?>
@@ -17,10 +17,11 @@
 <table class="table table-striped table-hover">
     <tr>
         <td>#</td>
-        <td>Title</td>
-        <td>Created</td>
-        <td>Updated</td>
-        <td>Options</td>
+      <!--  <td>Title</td> -->
+		<td><?= Yii::t('yii','Title') ?></td>
+        <td><?= Yii::t('yii','Created') ?></td>
+        <td><?= Yii::t('yii','Updated') ?></td>
+        <td><?= Yii::t('yii','Options') ?></td>
     </tr>
     <?php foreach ($data as $post): ?>
         <tr>
