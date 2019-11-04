@@ -84,6 +84,7 @@ return [
 	'Contact' => 'Контакти',
 	'Login' => 'Логін',
 	'My Application' => 'Моя програма',
+	'Content' => 'Контент',
     '{attribute} "{value}" has already been taken.' => 'Значення «{value}» для «{attribute}» вже зайнято.',
     '{attribute} cannot be blank.' => 'Необхідно заповнити "{attribute}".',
     '{attribute} contains wrong subnet mask.' => 'Значення «{attribute}» містить неправильну маску підмережі.',

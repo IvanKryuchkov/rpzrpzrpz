@@ -17,6 +17,16 @@ $config = [
 	
     'components' => [
 	
+		'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+			'class' => 'codemix\localeurls\UrlManager',
+			'languages' => ['uk', 'en'],
+			'enableDefaultLanguageUrlCode' => true,
+            'rules' => [
+            ],
+        ],
+	
 		'i18n' => [
 			'translations' => [
 				'yii*' => [

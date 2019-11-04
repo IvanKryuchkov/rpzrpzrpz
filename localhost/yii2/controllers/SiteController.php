@@ -101,7 +101,7 @@ class SiteController extends Controller
                 'only' => ['logout'],
                 'rules' => [
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'language'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -170,6 +170,22 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+	public function actionLanguage()
+	{
+		if(isset($_POST['lang'])){
+			Yii::$app->language = $_POST['lang'];
+			$cookie = new yii\web\Cookie ([
+				'name'=>'lang',
+				'value'=>$_POST['lang']
+			]);
+			
+			Yii::$app->getResponse()->getCookies()->add($cookie);
+		}
+	}
+
+
+
 
     /**
      * Logout action.

@@ -32,8 +32,8 @@
             <td><?php echo $post->created; ?></td>
             <td><?php echo $post->updated; ?></td>
             <td>
-                <?php echo Html::a(NULL, array('site/update', 'id'=>$post->id), array('class'=>'icon icon-edit')); ?>
-                <?php echo Html::a(NULL, array('site/delete', 'id'=>$post->id), array('class'=>'icon icon-trash')); ?>
+                <?php echo Html::a(Yii::t('yii','Update'), array('site/update', 'id'=>$post->id), array('class'=>'icon icon-edit')); ?>
+                <?php echo Html::a(Yii::t('yii','Delete'), array('site/delete', 'id'=>$post->id), array('class'=>'icon icon-trash')); ?>
             </td>
         </tr>
     <?php endforeach; ?>
