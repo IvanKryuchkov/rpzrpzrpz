@@ -3187,3 +3187,189 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii2/main.php
 ---
+2019/10/22 00:40:57 [error] [php] Cannot modify header information - headers already sent by (output started at G:\OpenServer\OSPanel\domains\localhost\protected\config\main.php:1) (G:\OpenServer\OSPanel\domains\localhost\framework\web\CHttpRequest.php:860)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\auth\CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): StaticPageController->filterAccessControl()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): StaticPageController->runActionWithFilters()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): StaticPageController->run()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/admin
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2019/10/22 00:41:14 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "fileman/Uploads/images.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/images.jpg
+HTTP_REFERER=http://localhost/site/page/13
+---
+2019/10/27 03:24:10 [error] [php] Uninitialized string offset: 0 (G:\OpenServer\OSPanel\domains\localhost\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2019/10/27 17:00:08 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "yii2/web/index.php". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('yii2/web/index....')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii2/web/index.php
+---
+2019/11/12 20:48:33 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2019/11/12 23:33:06 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/9
+---
+2019/11/12 23:34:45 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/7
+---
+2019/11/12 23:44:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg
+HTTP_REFERER=http://localhost/site/page/11
+---
+2019/11/12 23:48:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/7
+---
+2019/11/12 23:58:34 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/12
+---
+2019/11/13 00:02:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/7
+---
+2019/11/13 00:12:34 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/12
+---
+2019/11/13 00:16:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/7
+---
+2019/11/15 20:43:10 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/8
+---
+2019/11/15 20:48:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/9
+---
+2019/11/15 20:57:10 [error] [exception.CHttpException.400] CHttpException: Невірний запит. in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:336
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/page/
+HTTP_REFERER=http://localhost/site/page/8
+---

@@ -173,11 +173,11 @@
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" >Главная</a></li>
 
                                         <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 7]) ?>" >О нас</a>
-                                            <ul class="sub-menu">
-                                                <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 9]) ?>" >Отзывы</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 8]) ?>" >Часто задаваемые вопросы</a></li>
+                                         <!--   <ul class="sub-menu">
+                                                <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 9]) ?>" >Отзывы</a></li> -->
+                                               <!-- <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 8]) ?>" >Часто задаваемые вопросы</a></li> 
 
-                                            </ul>
+                                            </ul>-->
                                         </li>
                                         <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 10]) ?>" >Курсы</a>
                                             <ul class="sub-menu">

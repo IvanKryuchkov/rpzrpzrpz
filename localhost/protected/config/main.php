@@ -7,9 +7,13 @@
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Меридиан',
-    'language' => 'ru',
-    'sourceLanguage' => 'ru',
+    'language' => 'uk',
+    'sourceLanguage' => 'en',
     'preload' => array('log'),
+	
+	
+
+	
     // autoloading model and component classes
     'import' => array(
         'application.models.*',

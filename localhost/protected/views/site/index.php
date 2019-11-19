@@ -23,7 +23,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>">
-                                                <strong> Школьники</strong>
+                                                <strong> <?=Yii::t('zii','For students');?></strong>
                                                 <div style="color: #000; font-size: 12px;">Возраст: 6-16</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 5-7
@@ -42,7 +42,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>">
-                                                <strong>ЗНО</strong>
+                                                <strong><?=Yii::t('zii','ZNO');?></strong>
                                                   <div style="color: #000; font-size: 12px;">Поступление в ВУЗы</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Aliquam congue fermentum nisl
@@ -61,7 +61,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>">
-                                                <strong>Общий разговорный курс</strong>
+                                                <strong><?=Yii::t('zii','Common speaking course');?></strong>
                                                 <div style="color: #000; font-size: 12px;">Возраст: 14-99</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 8-12
@@ -80,7 +80,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>">
-                                                <strong>Бизнес курс</strong>
+                                                <strong><?=Yii::t('zii','Business course');?></strong>
                                                  <div style="color: #000; font-size: 12px;">Собеседование, переписка, технический тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Fusce euismod consequat
@@ -99,7 +99,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>">
-                                                <strong>Международные экзамены</strong>
+                                                <strong><?=Yii::t('zii','International exams');?></strong>
                                                 <div style="color: #000; font-size: 12px;">IELTS, TOEFL, etc.</div>
 
 
@@ -120,7 +120,7 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>">
-                                                <strong>Прочее</strong>
+                                                <strong><?=Yii::t('zii','Other');?></strong>
                                                  <div style="color: #000; font-size: 12px;">Speaking Club, переводы, тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Sed in lacus ut enim

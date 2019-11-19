@@ -232,6 +232,7 @@ return array (
   'orientation' => 'ltr',
   'languages' => 
   array (
+	'Школьникам' => 'Школярам',
     'aa' => 'афарська',
     'ab' => 'абхазька',
     'ace' => 'ачехська',
