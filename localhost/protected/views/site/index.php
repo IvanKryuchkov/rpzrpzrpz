@@ -181,11 +181,11 @@
 		
 			<p>Здесь будут иконки (про качественность образования и т.д.), но какие конкретно?</p>		
 			<ul>
-			<li> <a href="https://www.youtube.com/channel/UC2hDhK9yXt-8tChWRlMzWDA"><img src="yt_png.png"></a></li>
-			<li> <a href="https://twitter.com/1"><img src="tw_png.png"></a></li>
-			<li> <a href="https://instagram.com/1"><img src="inst_png.png"></a></li>
-			<li> <a href="https://discord.com/1"><img src="disc_png.png"></a></li>
-			<li> <a href="https://twitch.tv/1"><img src="twitch_png.png"></a></li>
+			<li> <a href="https://www.youtube.com/channel/UC2hDhK9yXt-8tChWRlMzWDA"><img src="https://robohash.org/a?size=60x60"></a></li>
+			<li> <a href="https://twitter.com/1"><img src="https://robohash.org/b?size=60x60"></a></li>
+			<li> <a href="https://instagram.com/1"><img src="https://robohash.org/c?size=60x60"></a></li>
+			<li> <a href="https://discord.com/1"><img src="https://robohash.org/d?size=60x60"></a></li>
+			<li> <a href="https://twitch.tv/1"><img src="https://robohash.org/e?size=60x60"></a></li>
 			</ul>
 			
 		</div>	
