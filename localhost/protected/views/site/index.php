@@ -24,7 +24,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>">
                                                 <strong> <?=Yii::t('zii','For students');?></strong>
-                                                <div style="color: #000; font-size: 12px;">Возраст: 6-16</div>
+                                                <div style="color: #000; font-size: 14px;">Возраст: 6-16</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 5-7
                                                 </span>-->
@@ -43,7 +43,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>">
                                                 <strong><?=Yii::t('zii','ZNO');?></strong>
-                                                  <div style="color: #000; font-size: 12px;">Поступление в ВУЗы</div>
+                                                  <div style="color: #000; font-size: 14px;">Поступление в ВУЗы</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Aliquam congue fermentum nisl
                                                 </span>-->
@@ -62,7 +62,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>">
                                                 <strong><?=Yii::t('zii','Common speaking course');?></strong>
-                                                <div style="color: #000; font-size: 12px;">Возраст: 14-99</div>
+                                                <div style="color: #000; font-size: 14px;">Возраст: 14-99</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 8-12
                                                 </span>-->
@@ -81,7 +81,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>">
                                                 <strong><?=Yii::t('zii','Business course');?></strong>
-                                                 <div style="color: #000; font-size: 12px;">Собеседование, переписка, технический тд.</div>
+                                                 <div style="color: #000; font-size: 14px;">Собеседование, переписка, технический тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Fusce euismod consequat
                                                 </span>-->
@@ -100,7 +100,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>">
                                                 <strong><?=Yii::t('zii','International exams');?></strong>
-                                                <div style="color: #000; font-size: 12px;">IELTS, TOEFL, etc.</div>
+                                                <div style="color: #000; font-size: 14px;">IELTS, TOEFL, etc.</div>
 
 
                                                 <!-- Introtext -->
@@ -121,7 +121,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>">
                                                 <strong><?=Yii::t('zii','Other');?></strong>
-                                                 <div style="color: #000; font-size: 12px;">Speaking Club, переводы, тд.</div>
+                                                 <div style="color: #000; font-size: 14px;">Speaking Club, переводы, юридическим лицам тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Sed in lacus ut enim
                                                 </span>-->
@@ -130,7 +130,9 @@
                                         </h4>
 
 
-
+	 <div id="menu" class="read_more" style="">
+	 <a href="#more" style="font-size:35px;text-decoration:none;color: #fff;">Узнать больше </a>
+	 </div>
                                         <!-- Read More link -->
                                     </div>
                                     <div class="clearfix"></div>  </article>
@@ -171,17 +173,84 @@
             </div>
         </div>
     </div>
+	
+	
+	<section id="more">	
+	
+		<div class="icons"> 
+		
+			<p>Здесь будут иконки (про качественность образования и т.д.), но какие конкретно?</p>		
+			<ul>
+			<li> <a href="https://www.youtube.com/channel/UC2hDhK9yXt-8tChWRlMzWDA"><img src="yt_png.png"></a></li>
+			<li> <a href="https://twitter.com/1"><img src="tw_png.png"></a></li>
+			<li> <a href="https://instagram.com/1"><img src="inst_png.png"></a></li>
+			<li> <a href="https://discord.com/1"><img src="disc_png.png"></a></li>
+			<li> <a href="https://twitch.tv/1"><img src="twitch_png.png"></a></li>
+			</ul>
+			
+		</div>	
+		
+	</section>
+		
+	
     <!-- Mainbottom -->
     <div id="mainbottom-row">
         <div class="row-container">
             <div class="container-fluid">
-                <div id="mainbottom" class="row-fluid">
-                    <?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
+                <div id="mainbottom" class="row-fluid" style="padding-top:40px">	
+
+<!--                      8888888888888888888888888888888888888888888888888888888888888888888888         -->				
+       			
+				
+<!--   			
+		<div class="about">
+	 
+			<h1 >О нас</h1>
+<div style="margin-left: 30px;">Курсы английского "Меридиан" начали свою деятельность в Хортицком районе г.Запорожье с 2010 года.
+За прошедшие годы у нас появилось очень много хороших друзей. Ведь успешное обучение во многом зависит от добрых отношений между преподавателем и учеником. Мы вместе радуемся Вашим достижениям, будь то хорошая оценка в школе, успешно сданный экзамен или пройденное собеседование. Мы стараемся делать все, чтобы время, проведенное в нашей школе приносило Вам пользу и удовольствие от полученных знаний.
+	</div>		
+		<div class="knowledge clearfix">
+			<div class="knowledge_item">	
+				<h3>Р</h3>
+				
+					<li>F</li>
+					<li>Б</li>
+					<li>Н</li>
+				
+			</div>
+			
+			<div class="knowledge_item">		
+				<h3>Р</h3>
+					<li>М</li>
+					<li>К</li>
+					<li>П</li>
+			</div>
+			
+			<div class="knowledge_item">
+				<h3>М</h3>
+					<li>B</li>
+					<li>М</li>
+					<li>Б</li>
+			</div>
+		</div>
+		
+		
+		</div>	
+			-->
+			
+<!--                      8888888888888888888888888888888888888888888888888888888888888888888888         -->
+
+
+                   <?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
                 </div>
             </div>
         </div>
     </div>
     <!-- Bottom -->
+	    <div class="contact_map" id="contact_map">
+		<p>Как нас найти(?):</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.5369044614117!2d35.0457699!3d47.809812099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc61b226be169b%3A0x871622b7cf804fb2!2z0LLRg9C7LiDQldC90YLRg9C30ZbQsNGB0YLRltCyLCA5LCDQl9Cw0L_QvtGA0ZbQttC20Y8sINCX0LDQv9C-0YDRltC30YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1435573774748" width="1132" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     <div id="bottom-row">
         <div class="row-container">
 
@@ -208,6 +277,4 @@
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>

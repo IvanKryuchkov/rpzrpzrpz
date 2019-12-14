@@ -1,0 +1,105 @@
+.section2 {
+	width: 200px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 40px; 
+    left: 70px;
+ }
+ 
+.read_more {
+	text-align:center;
+	margin: 20px;
+	margin-top:40px;
+}
+
+.icons {
+	 background-color:#2a2a2a;
+	 color: #fff;
+	 font-size: 20px;
+	 display: block;
+	 padding:40px;
+ }
+ 
+ .icons li {
+	 display: block;
+ }
+ 
+ .icons li a {
+	float: left;
+	width: 1px;
+	height: 40px;
+	padding-top: 0px;
+	color: #000000;
+ }
+ 
+  .icons img {
+	float: left;
+	width: 26px;
+	height: 26px;
+	padding-top: 0px;
+	margin-left: -34px;
+	color: #000000;
+ }
+.about {
+	 padding: 80px;
+	 margin: -58px;
+	 background-color:#2a2a2a;
+	 color: #fff;
+	 font-size: 20px;
+	 padding-left: 40px;
+	 margin-left: -50px;
+	 margin-right: -66px;
+	 padding-right: 30px;
+	 padding-bottom: 180px;
+ }
+
+ .about h1 {
+	 color:white;
+	 font-size:70px;
+	 padding-top:40px;
+	 margin-bottom:40px;
+ }
+ 
+ .knowledge {
+	 font-size:16px;
+	 padding-top:100px;
+	 padding-left:30px;
+ }
+ 
+ .knowledge_item {
+	 float: left;
+	 width:385px;
+ }
+ 
+ .contact_map {
+	 margin-top:40px;
+	 font-size:70px;
+	 position:relative;
+	 left:50%;
+	 margin-left:-560px ;
+	 display: inline-block;	 
+ }
+ 
+  .contact_map iframe {
+	 align: middle;
+ }
+ 
+ 
+ .info {
+	 position:relative;
+	 left:50%;
+	 text-align:center;
+	 display:inline-block;
+	 margin-left:-540px ;
+	 font-size:20px;
+	 padding-top:50px;
+ }
+ 
+ .info_item {
+	 float: left;
+	 width:355px;
+ }
+ 

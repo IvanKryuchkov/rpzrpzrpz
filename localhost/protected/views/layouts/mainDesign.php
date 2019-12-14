@@ -9,8 +9,10 @@
 
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/design/templates/theme2022/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/new.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/kurs.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/design/templates/theme2022/css/bootstrap.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/design/templates/theme2022/css/default.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/design/templates/theme2022/css/template.css" type="text/css" />
@@ -191,9 +193,9 @@
                                             </ul>
                                         </li>
 
-                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 11]) ?>" >Новости/Акции</a></li>
+                                        <!--<li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 11]) ?>" >Новости/Акции</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 12]) ?>" >Другие курсы</a></li>
-                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 13]) ?>" >Это интересно</a></li>
+                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 13]) ?>" >Это интересно</a></li> -->
                                         <li class="item-101"><a href="/site/contact" >Контакты</a></li>
 
                                     </ul>
@@ -260,7 +262,32 @@
         </div>
         <div id="footer-wrapper">
             <div class="footer-wrapper-inner">
-
+			<div class="info clearfix" >
+				
+				<div class="info_item">	
+					<h3>Адрес:</h3>
+					
+						<li>Курсы английского "Меридиан"</li>
+						<li>Энтузиастов, 9</li>
+						<li>(Здание АТБ, 2 этаж)</li>
+						<li>Хортицкий район (Бабурка)</li>
+						<li>г. Запорожье</li>
+					
+				</div>
+				
+				<div class="info_item">		
+					<h3>Телефоны:</h3>
+						<li>(095) 909 77 11</li>
+						<li>(097) 449 47 47</li>
+				</div>
+				
+				<div class="info_item">
+					<h3>E-Mail:</h3>
+						<li>mail@md.zp.ua</li>
+				</div>
+				
+			</div>
+ 
                 <!-- Copyright -->
                 <div id="copyright-row" role="contentinfo">
                     <div class="row-container">
@@ -294,5 +321,15 @@
   ga('send', 'pageview');
 
 </script>
+				<script type="text/javascript">
+					 $(document).ready(function(){
+						$("#menu").on("click","a", function (event) {
+							event.preventDefault();
+							var id  = $(this).attr('href'),
+								top = $(id).offset().top;
+							$('body,html').animate({scrollTop: top}, 900);
+						});
+					});
+				</script>
 
 </html>
