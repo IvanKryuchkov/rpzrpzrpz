@@ -16,13 +16,16 @@
 }
 
 .icons {
+		 text-align:center;
 	 background-color:#2a2a2a;
 	 color: #fff;
-	 font-size: 20px;
-	 padding:40px;
+	 font-size: 17px;
+	 padding:80px;
  }
  
   .icons ul {
+	margin-left:-300px;  
+	margin-top:-50px;
 	padding-left:16%;
  }
  
@@ -31,14 +34,17 @@
   width: 20%; /* five containers (use 25% for four, and 50% for two, etc) */
   padding: 0px; /* if you want space between the images */
  }
- 
- .icons li a {
 
+ .icons li a {
+	 font-size:35px;
+	 text-decoration:none;
+	 color: #fff;
  }
  
   .icons img {
 
-
+	width: 60px;
+	height:60px;
  }
 
 .about {

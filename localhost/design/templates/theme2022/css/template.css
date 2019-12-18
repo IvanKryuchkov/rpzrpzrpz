@@ -808,9 +808,9 @@ input[type='checkbox'] {
   content: "\f0a9";
   font: 24px/24px FontAwesome;
   color: #6d6d6d;
-  padding: 27px 30px 23px 24px;
+  padding: 35px 30px 29px 29px;
   border-right: 1px solid #d9d9d9;
-  margin-right: 16px;
+  margin-right: 10px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -818,7 +818,7 @@ input[type='checkbox'] {
 }
 .courses .item_title a strong {
   display: block;
-  padding-top: 14px;
+  padding-top: 6px;
   font-weight: 600;
 }
 .courses .item_title a span {
