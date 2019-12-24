@@ -18,15 +18,29 @@ class SiteController extends Controller {
     }
 
     public function actionIndex() {
+        $modelContact=new ContactForm;
+		if(isset($_POST['ContactForm']))
+		{
+			$modelContact->attributes=$_POST['ContactForm'];
+			if($modelContact->validate())
+			{
+				$name='=?UTF-8?B?'.base64_encode($modelContact->name).'?=';
+				$subject='=?UTF-8?B?'.base64_encode($modelContact->subject).'?=';
+				$headers="From: $name <{$modelContact->email}>\r\n".
+					"Reply-To: {$modelContact->email}\r\n".
+					"MIME-Version: 1.0\r\n".
+					"Content-Type: text/plain; charset=UTF-8";
 
-
-
-        $this->render('index', array(
-        ));
+				mail(Yii::app()->params['adminEmail'],$subject,$modelContact->body,$headers);
+				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				$this->refresh();
+			}
+		}
+		
+		$this->render('index', array('modelContact'=>$modelContact));
     }
 
     public function actionPage($id) {
-
         if (empty($id)) {
             $this->redirect('index');
         }

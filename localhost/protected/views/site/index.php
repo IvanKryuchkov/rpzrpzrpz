@@ -296,7 +296,7 @@
                                         'htmlOptions' => ['class' => "form-validate"]
                                     ));
                                     ?>
-                                    <fieldset>
+                                   <fieldset>
                                         <div class="clearfix"></div>
                                         <div class="row-fluid">
                                             <div class="span4">
@@ -305,8 +305,8 @@
                                                     <span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
-                                                    <?php echo $form->textField($model, 'name', array('size' => 30, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
-                                                    <?php echo $form->error($model, 'name'); ?>
+                                                    <?php echo $form->textField($modelContact, 'name', array('size' => 30, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
+                                                    <?php echo $form->error($modelContact, 'name'); ?>
                                                 </div>
                                             </div>
                                             <div class="span4">
@@ -314,8 +314,8 @@
                                                     Email<span class="star">&nbsp;*</span>
                                                 </label>	
                                                 <div class="controls">
-                                                    <?php echo $form->textField($model, 'email', array('size' => 30, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
-                                                    <?php echo $form->error($model, 'email'); ?>
+                                                    <?php echo $form->textField($modelContact, 'email', array('size' => 30, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
+                                                    <?php echo $form->error($modelContact, 'email'); ?>
                                                 </div>
                                             </div>
                                             <div class="span4">
@@ -323,8 +323,8 @@
                                                     Тема<span class="star">&nbsp;*</span>
                                                 </label>					
                                                 <div class="controls">
-                                                    <?php echo $form->textField($model, 'subject', array('size' => 60, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
-                                                    <?php echo $form->error($model, 'subject'); ?>
+                                                    <?php echo $form->textField($modelContact, 'subject', array('size' => 60, 'maxlength' => 255, 'required' => "", 'aria-required' => "true")); ?>
+                                                    <?php echo $form->error($modelContact, 'subject'); ?>
 
                                                 </div>
                                             </div>
@@ -336,8 +336,8 @@
                                                 </label>
                                                 <div class="controls">
 
-                                                    <?php echo $form->textArea($model, 'body', array('cols' => 50, 'id' => "jform_contact_message", 'rows' => 10, 'required' => "", 'aria-required' => "true")); ?>
-                                                    <?php echo $form->error($model, 'body'); ?>
+                                                    <?php echo $form->textArea($modelContact, 'body', array('cols' => 50, 'id' => "jform_contact_message", 'rows' => 10, 'required' => "", 'aria-required' => "true")); ?>
+                                                    <?php echo $form->error($modelContact, 'body'); ?>
                                                 </div>
                                                 <div class="control-group">
                                                     <div class="controls">

@@ -6,7 +6,7 @@
 // CWebApplication properties can be configured here.
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'Меридиан',
+    'name' => 'meridian',
     'language' => 'uk',
     'sourceLanguage' => 'en',
     'preload' => array('log'),
@@ -53,8 +53,8 @@ return array(
         'db' => array(
             'connectionString' => 'mysql:host=localhost;dbname=meridian',
             'emulatePrepare' => true,
-            'username' => 'meridian',
-            'password' => 'meridian2017+11M',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'tablePrefix' => '',
         ),
