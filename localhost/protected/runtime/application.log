@@ -476,3 +476,91 @@ Stack trace:
 #17 {main}
 REQUEST_URI=/rpzrpzrpz-1/localhost/
 ---
+2020/01/13 19:42:44 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:43:48 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:43:53 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:43:55 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:44:45 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:49:13 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:49:17 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:49:33 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:52:11 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:52:20 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/01/13 19:53:09 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---

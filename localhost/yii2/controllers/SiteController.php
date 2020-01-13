@@ -1,5 +1,5 @@
 <?php
-
+//yii 2
 namespace app\controllers;
 use \yii\base\HttpException;
 use \yii\db\Expression;
