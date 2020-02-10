@@ -172,23 +172,23 @@
                                 </div>
                                 <nav class="moduletable navigation  span8"> 
                                     <ul class="sf-menu   sticky" id="module-93">
-                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" >Главная</a></li>
+                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" >Головна</a></li>
 
-                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 7]) ?>" >О нас</a>
+                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 7]) ?>" >Про нас</a>
                                          <!--   <ul class="sub-menu">
                                                 <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 9]) ?>" >Отзывы</a></li> -->
                                                <!-- <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 8]) ?>" >Часто задаваемые вопросы</a></li> 
 
                                             </ul>-->
                                         </li>
-                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 10]) ?>" >Курсы</a>
+                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 10]) ?>" >Курси</a>
                                             <ul class="sub-menu">
                                                 <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>" >6-16</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>" >ЗНО</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>" >Общий разговорный курс</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>" >Бизнес курс</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>" >Международные экзамены</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>" >Прочее</a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>" >ВНО</a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>" >Загальний розмовний курс</a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>" >Бізнес курс</a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>" >Міжнародні іспити</a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>" >Інше</a></li>
 
                                             </ul>
                                         </li>
@@ -196,7 +196,7 @@
                                         <!--<li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 11]) ?>" >Новости/Акции</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 12]) ?>" >Другие курсы</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 13]) ?>" >Это интересно</a></li> -->
-                                        <li class="item-101"><a href="/site/contact" >Контакты</a></li>
+                                        <li class="item-101"><a href="/site/contact" >Контакти</a></li>
 
                                     </ul>
 
@@ -265,18 +265,18 @@
 			<div class="info clearfix" >
 				
 				<div class="info_item">	
-					<h3>Адрес:</h3>
+					<h3>Адреса:</h3>
 					
-						<li>Курсы английского "Меридиан"</li>
-						<li>Энтузиастов, 9</li>
-						<li>(Здание АТБ, 2 этаж)</li>
-						<li>Хортицкий район (Бабурка)</li>
-						<li>г. Запорожье</li>
+						<li>Курси английскї "Меридиан"</li>
+						<li>Энтузиастів, 9</li>
+						<li>(Будівля АТБ, 2 поверх)</li>
+						<li>Хортицький район (Бабурка)</li>
+						<li>м. Запоріжжя</li>
 					
 				</div>
 				
 				<div class="info_item">		
-					<h3>Телефоны:</h3>
+					<h3>Телефони:</h3>
 						<li>(095) 909 77 11</li>
 						<li>(097) 449 47 47</li>
 				</div>

@@ -24,7 +24,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>">
                                                 <strong> <?=Yii::t('zii','For students');?></strong>
-                                                <div style="color: #000; font-size: 17px;">Возраст: 6-16</div>
+                                                <div style="color: #000; font-size: 17px;">Вік: 6-16</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 5-7
                                                 </span>-->
@@ -43,7 +43,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>">
                                                 <strong><?=Yii::t('zii','ZNO');?></strong>
-                                                  <div style="color: #000; font-size: 17px;">Поступление в ВУЗы</div>
+                                                  <div style="color: #000; font-size: 17px;">Вступ до ВНЗ</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Aliquam congue fermentum nisl
                                                 </span>-->
@@ -62,7 +62,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>">
                                                 <strong><?=Yii::t('zii','Common speaking course');?></strong>
-                                                <div style="color: #000; font-size: 17px;">Возраст: 14-99</div>
+                                                <div style="color: #000; font-size: 17px;">Вік: 14-99</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 8-12
                                                 </span>-->
@@ -81,7 +81,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>">
                                                 <strong><?=Yii::t('zii','Business course');?></strong>
-                                                 <div style="color: #000; font-size: 17px;">Собеседование, переписка, технический тд.</div>
+                                                 <div style="color: #000; font-size: 17px;">Співбесіда, переписка, технічний тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Fusce euismod consequat
                                                 </span>-->
@@ -121,7 +121,7 @@
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>">
                                                 <strong><?=Yii::t('zii','Other');?></strong>
-                                                 <div style="color: #000; font-size: 17px;">Speaking Club, переводы, юридическим лицам тд.</div>
+                                                 <div style="color: #000; font-size: 17px;">Speaking Club, переклади, юридичним особам тд.</div>
                                                 <!-- Introtext -->
 <!--                                                <span>Sed in lacus ut enim
                                                 </span>-->
@@ -131,7 +131,7 @@
 
 
 	 <div id="menu" class="read_more" style="">
-	 <a href="#more" style="font-size:35px;text-decoration:none;color: #fff;">Узнать больше </a>
+	 <a href="#more" style="font-size:35px;text-decoration:none;color: #fff;">Дізнатись більше </a>
 	 </div>
                                         <!-- Read More link -->
                                     </div>
@@ -180,11 +180,11 @@
 		<div class="icons"> 
 				
 			<ul>
-			<li> <a href=""><img src="/css/year.png"></a><p>Работаем уже более 9 лет</p></li>
-			<li> <a href=""><img src="/css/teach.png"></a><p>Обучение у профессиональных преподователей</p></li>
-			<li> <a href=""><img src="/css/friend.png"></a><p>Дружественная атмосфера</p></li>
-			<li> <a href=""><img src="/css/variable.png"></a><p>Множество курсов</p></li>
-			<li> <a href=""><img src="/css/toefl.png"></a><p>Подготовка к международным екзаменам</p></li>
+			<li> <a href=""><img src="/css/year.png"></a><p>Працюємо вже більше 9 років</p></li>
+			<li> <a href=""><img src="/css/teach.png"></a><p>Навчання у професійних викладачів</p></li>
+			<li> <a href=""><img src="/css/friend.png"></a><p>Дружня атмосфера</p></li>
+			<li> <a href=""><img src="/css/variable.png"></a><p>Безліч курсів</p></li>
+			<li> <a href=""><img src="/css/ielts_toefl.png"></a><p>Підготовка до міжнародних іспитів</p></li>
 			</ul>
 			
 		</div>	
@@ -218,7 +218,7 @@
                                 <!-- Heading -->
                                 <div class="page_header">
                                     <h3>
-                                        <span class="item_title_part0" style="font-size:67px;">Контакты</span>
+                                        <span class="item_title_part0" style="font-size:67px;">Контакти</span>
                                     </h3>  
                                 </div>
                                 <!-- CONTACT FORM -->
@@ -250,7 +250,7 @@
                                         <div class="row-fluid">
                                             <div class="span4">
                                                 <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title="" data-original-title="<strong>Name</strong><br />Your name">
-                                                    Имя
+                                                    Ім'я
                                                     <span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
@@ -281,7 +281,7 @@
                                         <div class="row-fluid">
                                             <div class="span12">
                                                 <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required" title="" data-original-title="<strong>Message</strong><br />Enter your message here.">
-                                                    Сообщение<span class="star">&nbsp;*</span>
+                                                    Повідомлення<span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
 
@@ -295,7 +295,7 @@
                                             </div>
                                         </div>
                                         <div class="controls">
-                                            <button class="btn validate btn-primary pull-right" type="submit">Отправить</button>
+                                            <button class="btn validate btn-primary pull-right" type="submit">Відправити</button>
                                         </div>
                                     </fieldset>
                                     <?php $this->endWidget(); ?>
@@ -319,20 +319,5 @@
             </div>
         </div>
     </div>
-    <!-- Bottom -->
-    <div id="bottom-row">
-        <div class="row-container">
 
-            <div class="moduletable social  span6">
-
-
-                <?php echo TemplateBlock::model()->findByPk(TemplateBlock::VK_BLOCK)->content; ?>
-            </div>
-            <div class="moduletable social  span6">
-
-
-                <?php echo TemplateBlock::model()->findByPk(TemplateBlock::FACEBOOK_BLOCK)->content; ?>
-            </div>
-        </div>
-    </div>
 </div>

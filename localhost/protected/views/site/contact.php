@@ -54,7 +54,7 @@
                                         <div class="row-fluid">
                                             <div class="span4">
                                                 <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title="" data-original-title="<strong>Name</strong><br />Your name">
-                                                    Имя
+                                                    Ім'я
                                                     <span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
@@ -85,7 +85,7 @@
                                         <div class="row-fluid">
                                             <div class="span12">
                                                 <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required" title="" data-original-title="<strong>Message</strong><br />Enter your message here.">
-                                                    Сообщение<span class="star">&nbsp;*</span>
+                                                    Повідомлення<span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
 
@@ -99,7 +99,7 @@
                                             </div>
                                         </div>
                                         <div class="controls">
-                                            <button class="btn validate btn-primary pull-right" type="submit">Отправить</button>
+                                            <button class="btn validate btn-primary pull-right" type="submit">Відправити</button>
                                         </div>
                                     </fieldset>
                                     <?php $this->endWidget(); ?>

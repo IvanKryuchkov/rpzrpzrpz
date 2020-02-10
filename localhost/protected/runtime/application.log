@@ -564,3 +564,1489 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
 ---
+2020/02/06 16:24:39 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/06 16:24:40 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 02:45:01 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 02:45:42 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 02:45:43 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 02:45:49 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/1
+---
+2020/02/10 02:45:49 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/1
+---
+2020/02/10 02:49:45 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/3
+---
+2020/02/10 02:49:49 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/6
+---
+2020/02/10 18:34:07 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 18:41:02 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/2
+---
+2020/02/10 18:41:11 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 18:41:11 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 18:41:54 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/2
+---
+2020/02/10 18:47:11 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/3
+---
+2020/02/10 18:47:11 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/3
+---
+2020/02/10 18:47:16 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/2
+---
+2020/02/10 18:47:51 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 18:48:04 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/3
+---
+2020/02/10 18:58:34 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/02/10 18:59:16 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/2
+---
+2020/02/10 18:59:16 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/2
+---
+2020/02/10 18:59:28 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/4
+---
+2020/02/10 18:59:28 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/4
+---
+2020/02/10 19:01:37 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/4
+---
+2020/02/10 19:09:43 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:09:54 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/4
+---
+2020/02/10 19:10:35 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:10:35 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:16:13 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:16:14 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:21:38 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:21:38 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:22:27 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/6
+---
+2020/02/10 19:29:05 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/7
+---
+2020/02/10 19:29:05 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/7
+---
+2020/02/10 19:31:40 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/9
+---
+2020/02/10 19:31:46 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/9
+---
+2020/02/10 19:31:57 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/7
+---
+2020/02/10 19:31:58 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/7
+---
+2020/02/10 19:32:22 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/8
+---
+2020/02/10 19:32:22 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/8
+---
+2020/02/10 19:32:31 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/10
+---
+2020/02/10 19:32:32 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/10
+---
+2020/02/10 19:32:57 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/11
+---
+2020/02/10 19:32:57 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/11
+---
+2020/02/10 19:35:44 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/11
+---
+2020/02/10 19:35:45 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/11
+---
+2020/02/10 19:35:47 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/Speaking_Meridian_10_12_2016_3.jpg
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/11
+---
+2020/02/10 19:37:56 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/12
+---
+2020/02/10 19:37:56 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/12
+---
+2020/02/10 19:38:29 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/13
+---
+2020/02/10 19:38:29 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/13
+---
+2020/02/10 19:38:29 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "fileman/Uploads/images.jpg". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('fileman/Uploads...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/fileman/Uploads/images.jpg
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/13
+---
+2020/02/10 19:38:44 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/1
+---
+2020/02/10 19:39:13 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/2
+---
+2020/02/10 19:41:21 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/3
+---
+2020/02/10 19:41:26 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/4
+---
+2020/02/10 19:41:29 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/6
+---
+2020/02/10 19:44:38 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/5
+---
+2020/02/10 19:44:55 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/6
+---
+2020/02/10 19:48:12 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/6
+---
+2020/02/10 19:53:19 [error] [php] Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:329)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (329)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/02/10 19:53:43 [error] [exception.ParseError] ParseError: syntax error, unexpected '?>' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:329
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('index')
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://localhost/site/page/10
+---
+2020/02/10 20:08:20 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:08:25 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:09:01 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:09:35 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:09:40 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:10:02 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:14:08 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:14:29 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:14:46 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:14:56 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:17:06 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:17:42 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:17:55 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:18:05 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:18:20 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:20:06 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:20:38 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:21:49 [error] [exception.CHttpException.404] CHttpException: Неможливо обробити запит "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/02/10 20:39:49 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php:61
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\TemplateBlockController.php(24): TemplateBlockController->loadModel('t')
+#1 [internal function]: TemplateBlockController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(TemplateBlockController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TemplateBlockController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/templateB...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/templateBlock/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/templateBlock/update/id/6
+---

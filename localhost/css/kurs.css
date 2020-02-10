@@ -20,17 +20,19 @@
 	 background-color:#2a2a2a;
 	 color: #fff;
 	 font-size: 17px;
-	 height:160px;
+	 height:170px;
  }
  
   .icons ul {
-	padding-top:30px;
+	padding-top:32px;
+	text-align: center;
  }
  
  .icons li {
   float: left;
   width: 20%; /* five containers (use 25% for four, and 50% for two, etc) */
   padding: 0px; /* if you want space between the images */
+  
  }
 
  .icons li a {
@@ -39,10 +41,19 @@
 	 color: #fff;
  }
  
+ .icons li p {
+	 width: 70%;
+	   display: block;
+  margin-left: auto;
+  margin-right: auto;
+	 
+ }
+ 
   .icons img {
 
 	width: 60px;
 	height:60px;
+	padding-bottom:7px;
  }
 
 .about {

@@ -18,7 +18,7 @@ return array (
   'ZNO'=>'ВНО',
   'Common speaking course'=>'Загальний розмовний курс',
   'Business course'=>'Бізнес курс',
-  'International exams'=>'Міжнародні екзамени',
+  'International exams'=>'Міжнародні іспити',
   'Other'=>'Інше',
   'Home' => 'Головна',
   'The button type "{type}" is not supported.' => 'Тип кнопки "{type}" не підтримується.',
