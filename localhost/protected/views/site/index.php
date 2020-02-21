@@ -16,7 +16,7 @@
                                                 </header>
                         <div class="mod-newsflash-adv mod-newsflash-adv__courses cols-2" id="module_106">
                                                      <div class="pretext">
-                                                            Summer - Autumn 2014  </div>
+                                                            Summer - Autumn 2020  </div>
                             <div class="row-fluid">
                                 <article class="span4 item item_num0 item__module new_span " id="item_70">
                                     <div class="item_content">
@@ -122,17 +122,13 @@
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>">
                                                 <strong><?=Yii::t('zii','Other');?></strong>
                                                  <div style="color: #000; font-size: 17px;">Speaking Club, переклади, юридичним особам тд.</div>
-                                                <!-- Introtext -->
-<!--                                                <span>Sed in lacus ut enim
-                                                </span>-->
-
                                             </a>
                                         </h4>
 
 
-	 <div id="menu" class="read_more" style="">
+<!--	 <div id="menu" class="read_more" style="">
 	 <a href="#more" style="font-size:35px;text-decoration:none;color: #fff;">Дізнатись більше </a>
-	 </div>
+	 </div>  -->
                                         <!-- Read More link -->
                                     </div>
                                     <div class="clearfix"></div>  </article>
@@ -209,7 +205,7 @@
             <div class="container-fluid">
                 <div class="content-inner row-fluid">   
 
-                    <div id="component" class="span12">
+                    <div id="contact_anchor" class="span12">
                         <main role="main">
                             <br>
 

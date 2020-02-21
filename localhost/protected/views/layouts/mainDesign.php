@@ -174,7 +174,7 @@
                                     <ul class="sf-menu   sticky" id="module-93">
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" >Головна</a></li>
 
-                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 7]) ?>" >Про нас</a>
+                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('#mainbottom') ?>" >Про нас</a>
                                          <!--   <ul class="sub-menu">
                                                 <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 9]) ?>" >Отзывы</a></li> -->
                                                <!-- <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 8]) ?>" >Часто задаваемые вопросы</a></li> 
@@ -196,7 +196,7 @@
                                         <!--<li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 11]) ?>" >Новости/Акции</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 12]) ?>" >Другие курсы</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 13]) ?>" >Это интересно</a></li> -->
-                                        <li class="item-101"><a href="/site/contact" >Контакти</a></li>
+                                        <li class="item-101"><a href="#contact_anchor" >Контакти</a></li>
 
                                     </ul>
 
