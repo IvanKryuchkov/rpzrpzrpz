@@ -1092,6 +1092,7 @@ class CController extends CBaseController
 	 */
 	protected function beforeAction($action)
 	{
+
 		return true;
 	}
 

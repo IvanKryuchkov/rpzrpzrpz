@@ -32,6 +32,10 @@ return array(
 
 	// application components
 	'components'=>array(
+	
+		'messages' => array(
+       	 	'class' => 'CPhpMessageSource'
+     	),
 
 		'user'=>array(
 			// enable cookie-based authentication

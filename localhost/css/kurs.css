@@ -9,6 +9,24 @@
     left: 70px;
  }
  
+ #languageSelector {
+	 width: 88px;
+	 text-align: center;
+	 margin: 42px 0px 34px;
+ }
+ 
+ .lang .ua {
+	display:none;
+}
+
+.ru {
+	display: none;
+}
+
+.lang .ru {
+	display:block;
+}
+ 
 .read_more {
 	text-align:center;
 	margin: 20px;
@@ -50,7 +68,6 @@
  }
  
   .icons img {
-
 	width: 60px;
 	height:60px;
 	padding-bottom:7px;

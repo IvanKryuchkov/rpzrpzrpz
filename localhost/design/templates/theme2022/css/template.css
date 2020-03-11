@@ -1317,6 +1317,9 @@ blockquote small {
 .twitter:before {
   content: "\f099";
 }
+.instagram:before {
+  content: "\f16d";
+}
 .facebook:before {
   content: "\f09a";
 }

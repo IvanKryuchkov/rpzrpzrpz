@@ -49,7 +49,9 @@
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/design/modules/mod_superfish_menu/js/supersubs.js" type="text/javascript"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/design/modules/mod_superfish_menu/js/sftouchscreen.js" type="text/javascript"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/design/templates/theme2022/js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
-        <script type="text/javascript">
+
+		<script type="text/javascript">
+		
             jQuery(window).on('load', function () {
                 new JCaption('img.caption');
             });
@@ -142,7 +144,7 @@
 
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     </head>
-    <body class="com_content view-category task- itemid-101 body__home"> 
+    <body class="com_content view-category task- itemid-101 body__home lang_body" id="lang_body"> 
         <!-- Body -->
         <div id="wrapper">
             <div class="wrapper-inner">
@@ -172,31 +174,35 @@
                                 </div>
                                 <nav class="moduletable navigation  span8"> 
                                     <ul class="sf-menu   sticky" id="module-93">
-                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" >Головна</a></li>
+                                        <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/index') ?>" ><?php echo Yii::t('app', 'Головна'); ?></a></li>
 
-                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('#mainbottom') ?>" >Про нас</a>
+                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('#mainbottom') ?>" ><?php echo Yii::t('app', 'Про нас'); ?></a>
                                          <!--   <ul class="sub-menu">
                                                 <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 9]) ?>" >Отзывы</a></li> -->
                                                <!-- <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 8]) ?>" >Часто задаваемые вопросы</a></li> 
 
                                             </ul>-->
                                         </li>
-                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 10]) ?>" >Курси</a>
+                                        <li class="item-134 deeper dropdown parent"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 10]) ?>" ><?php echo Yii::t('app', 'Курси'); ?></a>
                                             <ul class="sub-menu">
-                                                <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>" >6-16</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>" >ВНО</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>" >Загальний розмовний курс</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>" >Бізнес курс</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>" >Міжнародні іспити</a></li>
-                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>" >Інше</a></li>
+                                                <li class="item-135"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>" ><?php echo Yii::t('app', '6-16'); ?></a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>" ><?php echo Yii::t('app', 'ВНО'); ?></a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>" ><?php echo Yii::t('app', 'Загальний розмовний курс'); ?></a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>" ><?php echo Yii::t('app', 'Бізнес курс'); ?></a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>" ><?php echo Yii::t('app', 'Міжнародні іспити'); ?></a></li>
+                                                <li class="item-138"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>" ><?php echo Yii::t('app', 'Інше'); ?></a></li>
 
                                             </ul>
                                         </li>
-
                                         <!--<li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 11]) ?>" >Новости/Акции</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 12]) ?>" >Другие курсы</a></li>
                                         <li class="item-101"><a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 13]) ?>" >Это интересно</a></li> -->
-                                        <li class="item-101"><a href="#contact_anchor" >Контакти</a></li>
+                                        <li class="item-101"><a href="#contact_anchor" ><?php echo Yii::t('app', 'Контакти'); ?></a></li>
+										<li>
+										<?php 
+										$this->widget('ext.LanguagePicker.ELanguagePicker', array( )); 
+										?>
+										</li>										
 
                                     </ul>
 
@@ -263,11 +269,10 @@
         <div id="footer-wrapper">
             <div class="footer-wrapper-inner">
 			<div class="info clearfix" >
-				
 				<div class="info_item">	
 					<h3>Адреса:</h3>
 					
-						<li>Курси английскї "Меридиан"</li>
+						<li>Курси английскої "Меридиан"</li>
 						<li>Энтузиастів, 9</li>
 						<li>(Будівля АТБ, 2 поверх)</li>
 						<li>Хортицький район (Бабурка)</li>
@@ -321,15 +326,13 @@
   ga('send', 'pageview');
 
 </script>
-				<script type="text/javascript">
-					 $(document).ready(function(){
-						$("#menu").on("click","a", function (event) {
-							event.preventDefault();
-							var id  = $(this).attr('href'),
-								top = $(id).offset().top;
-							$('body,html').animate({scrollTop: top}, 900);
-						});
-					});
+				<script>
+				var ualang = true;
+				var lang = document.body;
+				function switchLang() {
+					lang.classList.toggle("lang");
+					console.log(ualang);
+				}
 				</script>
 
 </html>

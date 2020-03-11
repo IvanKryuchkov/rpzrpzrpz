@@ -7,8 +7,8 @@
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'meridian',
-    'language' => 'uk',
-    'sourceLanguage' => 'en',
+    'language' => 'ru',
+    'sourceLanguage' => 'ua',
     'preload' => array('log'),
 	
 	
@@ -34,6 +34,11 @@ return array(
     ),
     // application components
     'components' => array(
+	
+		'messages' => array(
+       	 	'class' => 'CPhpMessageSource'
+     	),
+		
         'user' => array(
             'loginUrl' => array('/admin/default/login'),
 // enable cookie-based authentication

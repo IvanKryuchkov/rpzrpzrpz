@@ -23,8 +23,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 1]) ?>">
-                                                <strong> <?=Yii::t('zii','For students');?></strong>
-                                                <div style="color: #000; font-size: 17px;">Вік: 6-16</div>
+                                                <strong> <?=Yii::t('app','Школярам');?></strong>
+                                                <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'Вік: 6-16'); ?></div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 5-7
                                                 </span>-->
@@ -42,8 +42,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 2]) ?>">
-                                                <strong><?=Yii::t('zii','ZNO');?></strong>
-                                                  <div style="color: #000; font-size: 17px;">Вступ до ВНЗ</div>
+                                                <strong><?=Yii::t('app','ВНО');?></strong>
+                                                  <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'Вступ до ВНЗ'); ?></div>
                                                 <!-- Introtext -->
 <!--                                                <span>Aliquam congue fermentum nisl
                                                 </span>-->
@@ -61,8 +61,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 3]) ?>">
-                                                <strong><?=Yii::t('zii','Common speaking course');?></strong>
-                                                <div style="color: #000; font-size: 17px;">Вік: 14-99</div>
+                                                <strong><?=Yii::t('app','Загальний розмовний курс');?></strong>
+                                                <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'Вік: 14-99'); ?></div>
                                                 <!-- Introtext -->
 <!--                                                <span>Age 8-12
                                                 </span>-->
@@ -80,8 +80,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 4]) ?>">
-                                                <strong><?=Yii::t('zii','Business course');?></strong>
-                                                 <div style="color: #000; font-size: 17px;">Співбесіда, переписка, технічний тд.</div>
+                                                <strong><?=Yii::t('app','Бізнес курс');?></strong>
+                                                 <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'Співбесіда, переписка, технічний тд.'); ?></div>
                                                 <!-- Introtext -->
 <!--                                                <span>Fusce euismod consequat
                                                 </span>-->
@@ -99,8 +99,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 5]) ?>">
-                                                <strong><?=Yii::t('zii','International exams');?></strong>
-                                                <div style="color: #000; font-size: 17px;">IELTS, TOEFL, etc.</div>
+                                                <strong><?=Yii::t('app','Міжнародні екзамени');?></strong>
+                                                <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'IELTS, TOEFL, etc.'); ?></div>
 
 
                                                 <!-- Introtext -->
@@ -120,8 +120,8 @@
                                         <!-- Item title -->
                                         <h4 class="item_title item_title__courses">
                                             <a href="<?php echo Yii::app()->createAbsoluteUrl('/site/page', ['id' => 6]) ?>">
-                                                <strong><?=Yii::t('zii','Other');?></strong>
-                                                 <div style="color: #000; font-size: 17px;">Speaking Club, переклади, юридичним особам тд.</div>
+                                                <strong><?=Yii::t('app','Інше');?></strong>
+                                                 <div style="color: #000; font-size: 17px;"><?php echo Yii::t('app', 'Speaking Club, переклади, юридичним особам тд.'); ?></div>
                                             </a>
                                         </h4>
 
@@ -176,11 +176,11 @@
 		<div class="icons"> 
 				
 			<ul>
-			<li> <a href=""><img src="/css/year.png"></a><p>Працюємо вже більше 9 років</p></li>
-			<li> <a href=""><img src="/css/teach.png"></a><p>Навчання у професійних викладачів</p></li>
-			<li> <a href=""><img src="/css/friend.png"></a><p>Дружня атмосфера</p></li>
-			<li> <a href=""><img src="/css/variable.png"></a><p>Безліч курсів</p></li>
-			<li> <a href=""><img src="/css/ielts_toefl.png"></a><p>Підготовка до міжнародних іспитів</p></li>
+			<li> <a href=""><img src="/css/year.png"></a><p><?php echo Yii::t('app', 'Працюємо вже більше 9 років'); ?></p></li>
+			<li> <a href=""><img src="/css/teach.png"></a><p><?php echo Yii::t('app', 'Навчання у професійних викладачів'); ?></p></li>
+			<li> <a href=""><img src="/css/friend.png"></a><p><?php echo Yii::t('app', 'Дружня атмосфера'); ?></p></li>
+			<li> <a href=""><img src="/css/variable.png"></a><p><?php echo Yii::t('app', 'Безліч курсів'); ?></p></li>
+			<li> <a href=""><img src="/css/ielts_toefl.png"></a><p><?php echo Yii::t('app', 'Підготовка до міжнародних іспитів'); ?></p></li>
 			</ul>
 			
 		</div>	
@@ -193,7 +193,19 @@
         <div class="row-container">
             <div class="container-fluid">
                 <div id="mainbottom" class="row-fluid" style="padding-top:40px">
-                   <?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
+				
+				<button onclick="switchLang()">Сменить язык (для блоков)</button>
+
+				<div class="ua">
+					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
+				</div>
+				
+				<div class="ru lang"> 
+					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru; ?>
+				</div>
+				<?php echo Yii::t('app', ''); ?>
+                   
+
                 </div>
             </div>
         </div>
