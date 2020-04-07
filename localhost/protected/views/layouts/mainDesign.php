@@ -268,7 +268,7 @@
         </div>
         <div id="footer-wrapper">
             <div class="footer-wrapper-inner">
-			<div class="info clearfix" >
+			<?php echo Yii::t('app', '<div class="info clearfix" >
 				<div class="info_item">	
 					<h3>Адреса:</h3>
 					
@@ -291,7 +291,7 @@
 						<li>mail@md.zp.ua</li>
 				</div>
 				
-			</div>
+			</div>'); ?>
  
                 <!-- Copyright -->
                 <div id="copyright-row" role="contentinfo">

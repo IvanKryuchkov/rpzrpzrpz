@@ -22,6 +22,11 @@
  *
  * NOTE: this file must be saved in UTF-8 encoding.
  */
+ 
+/* $foo = <?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru; ?>; */
+
+$ru = TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru;
+
 return [
 	'Школярам' => 'Школьники',
     'ВНО' => 'ЗНО',
@@ -29,6 +34,13 @@ return [
     'Бізнес курс' => 'Бизнес курс',
     'Міжнародні екзамени' => 'Международные экзамены',
     'Інше' => 'Прочее',
+	"Ім'я" => 'Имя',
+	'Повідомлення' => 'Сообщение',
+	'Відправити' => 'Отправить',
+	TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content => TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru,
+	TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content => TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content_ru,
+	TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content => TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content_ru,
+	'Test {foo}' => 'Test {foo}',
     ' and ' => ' и ',
     'Головна' => 'Главная',
     'Про нас' => 'О нас',
@@ -167,4 +179,52 @@ return [
     '{nFormatted} {n, plural, =1{tebibyte} other{tebibytes}}' => '{nFormatted} {n, plural, one{тебибайт} few{тебибайта} many{тебибайтов} other{тебибайта}}',
     '{nFormatted} {n, plural, =1{terabyte} other{terabytes}}' => '{nFormatted} {n, plural, one{терабайт} few{терабайта} many{терабайтов} other{терабайта}}',
     'You should upload at least {limit, number} {limit, plural, one{file} other{files}}.' => 'Вы должны загрузить как минимум {limit, number} {one{файл} few{файла} many{файлов} other{файла}}.',
+	'<div class="info clearfix" >
+				<div class="info_item">	
+					<h3>Адреса:</h3>
+					
+						<li>Курси английскої "Меридиан"</li>
+						<li>Энтузиастів, 9</li>
+						<li>(Будівля АТБ, 2 поверх)</li>
+						<li>Хортицький район (Бабурка)</li>
+						<li>м. Запоріжжя</li>
+					
+				</div>
+				
+				<div class="info_item">		
+					<h3>Телефони:</h3>
+						<li>(095) 909 77 11</li>
+						<li>(097) 449 47 47</li>
+				</div>
+				
+				<div class="info_item">
+					<h3>E-Mail:</h3>
+						<li>mail@md.zp.ua</li>
+				</div>
+				
+			</div>' =>
+	'<div class="info clearfix" >
+				<div class="info_item">	
+					<h3>Адрес:</h3>
+					
+						<li>Курсы английского "Меридиан"</li>
+						<li>Энтузиастов, 9</li>
+						<li>(АТБ, 2 этаж)</li>
+						<li>Хортицкий район (Бабурка)</li>
+						<li>г. Запорожье</li>
+					
+				</div>
+				
+				<div class="info_item">		
+					<h3>Телефоны:</h3>
+						<li>(095) 909 77 11</li>
+						<li>(097) 449 47 47</li>
+				</div>
+				
+				<div class="info_item">
+					<h3>E-Mail:</h3>
+						<li>mail@md.zp.ua</li>
+				</div>
+				
+			</div>',
 ];

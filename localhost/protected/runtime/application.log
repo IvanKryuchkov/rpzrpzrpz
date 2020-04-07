@@ -3690,3 +3690,757 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
 ---
+2020/04/06 19:32:13 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:32
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:32:46 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:26
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:32:49 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:26
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:34:04 [error] [exception.ParseError] ParseError: syntax error, unexpected '{', expecting ']' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:32
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:35:15 [error] [exception.ParseError] ParseError: syntax error, unexpected '<' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:32
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:35:24 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:32
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:37:11 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:32
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:49:25 [error] [exception.ParseError] ParseError: syntax error, unexpected '<' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:50:11 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:50:20 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:51:35 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:51:53 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:52:07 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:52:40 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:54:06 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 19:54:19 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:34
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 20:04:52 [error] [exception.ParseError] ParseError: syntax error, unexpected ':' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:26
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 20:05:44 [error] [php] Undefined variable: foo (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/06 20:06:32 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 20:11:51 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/06 20:14:52 [error] [php] Trying to get property 'TemplateBlock' of non-object (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:207)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (207)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 13:59:55 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:00:31 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:00:58 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:03:36 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:05:33 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:06:04 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:26
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:07:43 [error] [exception.ParseError] ParseError: syntax error, unexpected '<' in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:26
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:08:32 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:09:46 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:35
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:10:22 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:35
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:14:19 [error] [php] Object of class Closure could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:206)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (206)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:24:25 [error] [exception.ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:30
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages('app', 'ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CMessageSource->translateMessage('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CMessageSource->translate('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...', 'ru')
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): YiiBase::t('app', '\xD0\xA8\xD0\xBA\xD0\xBE\xD0\xBB\xD1\x8F\xD1\x80\xD0\xB0\xD0...')
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:28:55 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php:241
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): CController->render('index', Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('')
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:43:14 [error] [exception.ParseError] ParseError: syntax error, unexpected '*', expecting '(' in G:\OpenServer\OSPanel\domains\localhost\protected\models\StaticPage.php:17
+Stack trace:
+#0 [internal function]: YiiBase::autoload('StaticPage')
+#1 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(47): spl_autoload_call('StaticPage')
+#2 [internal function]: SiteController->actionPage('1')
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/
+---
+2020/04/07 14:43:31 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM ``.
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (47)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/07 14:43:31 [error] [exception.CDbException] CDbException: Таблица "", упомянутая в записи active record класса "StaticPage", не найдена в базе данных. in G:\OpenServer\OSPanel\domains\localhost\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(StaticPage))
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\db\ar\CActiveRecord.php(1490): CActiveRecord->getTableSchema()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(47): CActiveRecord->findByPk('1')
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/
+---

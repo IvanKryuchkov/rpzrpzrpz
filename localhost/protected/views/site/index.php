@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="moduletable intensive_courses  span4">
-                        <?php echo TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content; ?>
+						<?php echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content); ?>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
             <div class="container-fluid">
                 <div id="mainbottom" class="row-fluid" style="padding-top:40px">
 				
-				<button onclick="switchLang()">Сменить язык (для блоков)</button>
+				<!--<button onclick="switchLang()">Сменить язык (для блоков)</button>
 
 				<div class="ua">
 					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
@@ -202,8 +202,8 @@
 				
 				<div class="ru lang"> 
 					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru; ?>
-				</div>
-				<?php echo Yii::t('app', ''); ?>
+				</div> -->
+				<?php echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content); ?>
                    
 
                 </div>
@@ -226,7 +226,7 @@
                                 <!-- Heading -->
                                 <div class="page_header">
                                     <h3>
-                                        <span class="item_title_part0" style="font-size:67px;">Контакти</span>
+                                        <span class="item_title_part0" style="font-size:67px;"><?php echo Yii::t('app', 'Контакти'); ?></span>
                                     </h3>  
                                 </div>
                                 <!-- CONTACT FORM -->
@@ -236,8 +236,9 @@
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.5369044614117!2d35.0457699!3d47.809812099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc61b226be169b%3A0x871622b7cf804fb2!2z0LLRg9C7LiDQldC90YLRg9C30ZbQsNGB0YLRltCyLCA5LCDQl9Cw0L_QvtGA0ZbQttC20Y8sINCX0LDQv9C-0YDRltC30YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1435573774748" width="1132" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 </div>
 
-                                <!-- Address -->
-                                <?php echo TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content; ?>
+                                <!-- Address 
+                                <?php echo TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content; ?>-->
+								<?php echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content); ?>
 
                                 <!-- Address -->
                                 <div class="contact_form">
@@ -258,7 +259,7 @@
                                         <div class="row-fluid">
                                             <div class="span4">
                                                 <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title="" data-original-title="<strong>Name</strong><br />Your name">
-                                                    Ім'я
+                                                    <?php echo Yii::t('app', "Ім'я"); ?>
                                                     <span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
@@ -289,7 +290,7 @@
                                         <div class="row-fluid">
                                             <div class="span12">
                                                 <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required" title="" data-original-title="<strong>Message</strong><br />Enter your message here.">
-                                                    Повідомлення<span class="star">&nbsp;*</span>
+                                                    <?php echo Yii::t('app', 'Повідомлення'); ?> <span class="star">&nbsp;*</span>
                                                 </label>
                                                 <div class="controls">
 
@@ -303,7 +304,7 @@
                                             </div>
                                         </div>
                                         <div class="controls">
-                                            <button class="btn validate btn-primary pull-right" type="submit">Відправити</button>
+                                            <button class="btn validate btn-primary pull-right" type="submit"><?php echo Yii::t('app', 'Відправити'); ?></button>
                                         </div>
                                     </fieldset>
                                     <?php $this->endWidget(); ?>
