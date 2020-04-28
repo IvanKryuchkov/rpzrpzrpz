@@ -11,7 +11,27 @@
                                 <header class="page_header">
                                     <h3><span class="item_title_part0"><?php echo $model->title; ?></span> </h3>
                                 </header>
-                                <?php echo $model->content; ?>
+								
+                                <?php 
+								function func() { 
+								//global $model->content_ru; 
+								return $model->content; 
+								}
+								
+								function funcr() { 
+								//global $model->content_ru; 
+								return $model->content_ru; 
+								}
+								
+								$foo = 'func';
+								$foor = 'funcr';
+								//settype($foo, "object");
+								//call_user_func($foo);
+								//echo $foo;
+								//echo $model->content_ru;
+								?>
+								<?php echo Yii::t('app', call_user_func($foo)); ?>
+								
                             </section>   
                         </main>
                     </div>        

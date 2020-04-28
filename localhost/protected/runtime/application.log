@@ -4444,3 +4444,1253 @@ Stack trace:
 REQUEST_URI=/site/page/1
 HTTP_REFERER=http://localhost/
 ---
+2020/04/16 18:19:07 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:43)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (43)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 18:55:29 [error] [exception.CHttpException.404] CHttpException: Системе не удалось найти запрашиваемое действие "content_ru". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:483
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(270): CController->missingAction('content_ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('content_ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/staticPage/content_ru
+HTTP_REFERER=http://localhost/admin/staticPage/index
+---
+2020/04/16 18:55:58 [error] [exception.CHttpException.404] CHttpException: Системе не удалось найти запрашиваемое действие "content_ru". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php:483
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(270): CController->missingAction('content_ru')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('content_ru')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/staticPage/content_ru
+HTTP_REFERER=http://localhost/admin/staticPage/index
+---
+2020/04/16 18:56:13 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php:69
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\modules\admin\controllers\StaticPageController.php(29): StaticPageController->loadModel('t')
+#1 [internal function]: StaticPageController->actionUpdate('t')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StaticPageController), Array)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaticPageController), Object(ReflectionMethod), Array)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(291): CFilterChain->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('update')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/staticPag...')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/staticPage/update/id/t/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/admin/staticPage/update/id/1
+---
+2020/04/16 19:03:11 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:43)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (43)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 19:06:51 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 19:08:30 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 19:09:35 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:43)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (43)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 19:09:35 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 20:49:58 [error] [php] Use of undefined constant content - assumed 'content' (this will throw an Error in a future version of PHP) (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/16 20:49:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:29 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:40)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 21:51:30 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:36 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:38 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:41 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:40)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 21:51:42 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:57 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 21:51:58 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:40)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(16): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/16 21:51:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:02:43 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:14:27 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:14:42 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:15:20 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:15:30 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:16:03 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/16 22:16:17 [error] [php] Object of class stdClass could not be converted to string (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (19)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/16 22:16:18 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:19:29 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'echo 'gg'' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (19)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/17 15:19:40 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:21:35 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:21:48 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'echo $model->content_ru' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (19)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/17 15:21:51 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:23:36 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:20
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:24:20 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:20
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:24:31 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (19)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 15:24:31 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:27:39 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:28:10 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:28:47 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:19)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (19)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 15:28:48 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:36:17 [error] [exception.ParseError] ParseError: syntax error, unexpected '$model' (T_VARIABLE), expecting ',' or ')' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:22
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:36:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:37:11 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:37:33 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:40)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(22): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (40)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (22)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 15:37:34 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:38:01 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:22
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:39:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:40:05 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:40:58 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:45:30 [error] [exception.ParseError] ParseError: syntax error, unexpected '{', expecting '(' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 15:45:46 [error] [php] Undefined variable: foo (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:23)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/17 15:46:07 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:46:17 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:46:53 [error] [php] Undefined variable: foo (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:41)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(23): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#8 unknown(0): SiteController->actionPage()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#15 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (41)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 15:47:02 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:50:40 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:51:19 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:51:26 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:51:51 [error] [php] Undefined variable: foo (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:23)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#3 unknown(0): SiteController->actionPage()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+in G:\OpenServer\OSPanel\domains\localhost\index.php (17)
+2020/04/17 15:52:02 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 15:52:19 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 15:52:19 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 16:02:14 [error] [exception.ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 16:02:27 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function func(), 0 passed in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php on line 23 and exactly 1 expected in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php(23): func()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require('G:\\OpenServer\\O...')
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#5 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#6 [internal function]: SiteController->actionPage('1')
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 16:03:00 [error] [exception.ParseError] ParseError: syntax error, unexpected 'model' (T_STRING), expecting variable (T_VARIABLE) or '$' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 16:03:11 [error] [php] Trying to get property 'content_ru' of non-object (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (16)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (23)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 16:03:12 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 16:03:32 [error] [exception.ParseError] ParseError: syntax error, unexpected 'content_ru' (T_STRING), expecting variable (T_VARIABLE) or '$' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 16:03:48 [error] [exception.ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:16
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): CBaseController->renderInternal('G:\\OpenServer\\O...', Array, true)
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): CBaseController->renderFile('G:\\OpenServer\\O...', Array, true)
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): CController->renderPartial('page', Array, true)
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): CController->render('page', Array)
+#4 [internal function]: SiteController->actionPage('1')
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): CController->run('page')
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/site/page/1
+HTTP_REFERER=http://localhost/site/page/1
+---
+2020/04/17 16:09:55 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:17)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (17)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (24)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 16:10:18 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 18:19:39 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:17)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (17)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (24)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 18:19:50 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/17 18:19:55 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:17)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (17)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (24)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/17 18:19:56 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "design/templates/theme2022/js/es5-shim.map". in G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController('design/template...')
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/design/templates/theme2022/js/es5-shim.map
+---
+2020/04/20 15:30:14 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'func' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:41)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (41)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (26)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+2020/04/28 13:53:14 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'func' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:41)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (41)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (26)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+2020/04/28 13:53:18 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:17)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (17)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (24)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/28 13:55:56 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'func' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:41)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (41)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (26)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+2020/04/28 13:56:58 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'func' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:41)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (41)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (26)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+2020/04/28 13:58:46 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'func' not found or invalid function name (G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php:42)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\YiiBase.php(589): CPhpMessageSource->translate()
+#2 G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php(26): t()
+#3 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(126): require()
+#4 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#7 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(40): SiteController->render()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#13 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/index
+in G:\OpenServer\OSPanel\domains\localhost\protected\messages\ru\app.php (42)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\index.php (26)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (40)
+2020/04/28 13:58:55 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:18)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (18)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (33)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/28 13:59:51 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:18)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (18)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (33)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/28 13:59:53 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:18)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (18)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (33)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)
+2020/04/28 13:59:56 [error] [php] Undefined variable: model (G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php:18)
+Stack trace:
+#0 G:\OpenServer\OSPanel\domains\localhost\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(869): SiteController->renderFile()
+#2 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(782): SiteController->renderPartial()
+#3 G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php(53): SiteController->render()
+#4 unknown(0): SiteController->actionPage()
+#5 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 G:\OpenServer\OSPanel\domains\localhost\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(286): SiteController->runAction()
+#9 G:\OpenServer\OSPanel\domains\localhost\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(282): SiteController->run()
+#11 G:\OpenServer\OSPanel\domains\localhost\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\OpenServer\OSPanel\domains\localhost\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\OpenServer\OSPanel\domains\localhost\index.php(17): CWebApplication->run()
+REQUEST_URI=/site/page/1
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (18)
+in G:\OpenServer\OSPanel\domains\localhost\protected\views\site\page.php (33)
+in G:\OpenServer\OSPanel\domains\localhost\protected\controllers\SiteController.php (53)

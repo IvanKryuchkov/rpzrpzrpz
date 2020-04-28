@@ -25,8 +25,9 @@
  
 /* $foo = <?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru; ?>; */
 
-$ru = TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru;
-
+//$ru = TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru;
+$foo = 'func';
+$foor = 'funcr';
 return [
 	'Школярам' => 'Школьники',
     'ВНО' => 'ЗНО',
@@ -37,6 +38,8 @@ return [
 	"Ім'я" => 'Имя',
 	'Повідомлення' => 'Сообщение',
 	'Відправити' => 'Отправить',
+	'$model->content' => '$model->content_ru',
+	call_user_func($foo) => call_user_func($foor),
 	TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content => TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru,
 	TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content => TemplateBlock::model()->findByPk(TemplateBlock::CONTACT_BLOCK)->content_ru,
 	TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content => TemplateBlock::model()->findByPk(TemplateBlock::ORANGE_BLOCK_HOME)->content_ru,
