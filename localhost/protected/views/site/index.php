@@ -193,17 +193,13 @@
         <div class="row-container">
             <div class="container-fluid">
                 <div id="mainbottom" class="row-fluid" style="padding-top:40px">
-				
-				<!--<button onclick="switchLang()">Сменить язык (для блоков)</button>
-
-				<div class="ua">
-					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content; ?>
-				</div>
-				
-				<div class="ru lang"> 
-					<?php echo TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru; ?>
-				</div> -->
-				<?php echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content); ?>
+                <?php 
+                $lang = isset($_POST['languageSelector']) ? $_POST['languageSelector'] : $_COOKIE["language"];
+                if ($lang != 'ru')
+                    echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content); 
+                else
+                    echo Yii::t('app', TemplateBlock::model()->findByPk(TemplateBlock::GREN_BLOCK_HOME)->content_ru); 
+                ?>
                    
 
                 </div>

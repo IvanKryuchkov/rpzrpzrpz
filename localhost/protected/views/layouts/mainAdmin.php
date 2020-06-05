@@ -30,7 +30,7 @@
                 $this->widget('zii.widgets.CMenu', array(
                     'items' => array(
                         array('label' => 'Страницы', 'url' => array('/admin/staticPage/index')),
-						array('label' => 'Страницы на русском', 'url' => array('/admin/staticPage/index')),
+						array('label' => 'Страницы на русском', 'url' => array('/admin/staticPage_ru/index')),
                         array('label' => 'Блоки', 'url' => array('/admin/templateBlock/index')),
                         array('label' => 'Войти', 'url' => array('/admin/default/login'), 'visible' => Yii::app()->user->isGuest),
                         array('label' => 'Выйти (Привет Admin)', 'url' => array('/admin/default/logout'), 'visible' => !Yii::app()->user->isGuest),

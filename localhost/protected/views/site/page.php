@@ -13,24 +13,11 @@
                                 </header>
 								
                                 <?php 
-								function func() { 
-								//global $model->content_ru; 
-								return $model->content; 
-								}
-								
-								function funcr() { 
-								//global $model->content_ru; 
-								return $model->content_ru; 
-								}
-								
-								$foo = 'func';
-								$foor = 'funcr';
-								//settype($foo, "object");
-								//call_user_func($foo);
-								//echo $foo;
-								//echo $model->content_ru;
-								?>
-								<?php echo Yii::t('app', call_user_func($foo)); ?>
+                                $lang = isset($_POST['languageSelector']) ? $_POST['languageSelector'] :$_COOKIE["language"];
+                                if ($lang != 'ru') 
+                                echo $model->content; 
+                                else 
+                                echo $model->content_ru; ?>
 								
                             </section>   
                         </main>
